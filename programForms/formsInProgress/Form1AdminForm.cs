@@ -20,8 +20,8 @@ namespace StudentManagementSystem.programForms.formsInProgress
         }
         private void maxlength()
         {
-            username_txt.MaxLength = 20;
-            password_txt.MaxLength = 24;
+            f1AdmUsername_txt.MaxLength = 20;
+            f1AdmPassword_txt.MaxLength = 24;
         }
         socialMedLinks AdmLnks = new socialMedLinks();
 
