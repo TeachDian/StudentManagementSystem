@@ -1,0 +1,25 @@
+﻿
+#Form1
+
+Form1 Size /sizable = 1198, 827
+Form1 Size /none--- = 1180, 780
+Form1 Font /size--- = 12
+Form1 Font /style-- = Segoe UI
+Form1 Font /sstyle- = Semibold
+From1 Autosize----- = GrowAndShrink
+
+
+
+Segoe UI Semibold, 12pt, style=Bold
+
+
+
+
+#MainForm1Panel (this is the PANEL responsible for changing pages of the form. )
+MainForm1Panel 
+
+
+SUB properties
+               
+               
+               tblBorderpanel (Login promp border to form)
