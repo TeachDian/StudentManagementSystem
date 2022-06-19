@@ -58,6 +58,7 @@
             this.f1InsStupage = new System.Windows.Forms.LinkLabel();
             this.f1InsCrepage = new System.Windows.Forms.LinkLabel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label17 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
@@ -67,12 +68,11 @@
             this.label6 = new System.Windows.Forms.Label();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.f1InsbtnLogin = new System.Windows.Forms.Button();
-            this.f1IntPassword_txt = new System.Windows.Forms.TextBox();
+            this.f1InsPassword_txt = new System.Windows.Forms.TextBox();
             this.f1InsUsername_txt = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -570,7 +570,7 @@
             this.panel2.Controls.Add(this.label6);
             this.panel2.Controls.Add(this.checkBox1);
             this.panel2.Controls.Add(this.f1InsbtnLogin);
-            this.panel2.Controls.Add(this.f1IntPassword_txt);
+            this.panel2.Controls.Add(this.f1InsPassword_txt);
             this.panel2.Controls.Add(this.f1InsUsername_txt);
             this.panel2.Controls.Add(this.label5);
             this.panel2.Controls.Add(this.label4);
@@ -581,6 +581,22 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(540, 680);
             this.panel2.TabIndex = 1;
+            // 
+            // label17
+            // 
+            this.label17.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label17.AutoSize = true;
+            this.label17.BackColor = System.Drawing.Color.Transparent;
+            this.label17.Font = new System.Drawing.Font("Segoe UI Semibold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label17.ForeColor = System.Drawing.Color.Black;
+            this.label17.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.label17.Location = new System.Drawing.Point(45, 29);
+            this.label17.Margin = new System.Windows.Forms.Padding(0);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(132, 31);
+            this.label17.TabIndex = 37;
+            this.label17.Text = "Instructors\'";
+            this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label2
             // 
@@ -727,19 +743,19 @@
             this.f1InsbtnLogin.Text = "Log In";
             this.f1InsbtnLogin.UseVisualStyleBackColor = false;
             // 
-            // f1IntPassword_txt
+            // f1InsPassword_txt
             // 
-            this.f1IntPassword_txt.AllowDrop = true;
-            this.f1IntPassword_txt.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.f1IntPassword_txt.Font = new System.Drawing.Font("Segoe UI Semibold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.f1IntPassword_txt.Location = new System.Drawing.Point(72, 242);
-            this.f1IntPassword_txt.Margin = new System.Windows.Forms.Padding(0);
-            this.f1IntPassword_txt.Multiline = true;
-            this.f1IntPassword_txt.Name = "f1IntPassword_txt";
-            this.f1IntPassword_txt.PasswordChar = '*';
-            this.f1IntPassword_txt.PlaceholderText = "     What is your Password?";
-            this.f1IntPassword_txt.Size = new System.Drawing.Size(391, 40);
-            this.f1IntPassword_txt.TabIndex = 21;
+            this.f1InsPassword_txt.AllowDrop = true;
+            this.f1InsPassword_txt.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.f1InsPassword_txt.Font = new System.Drawing.Font("Segoe UI Semibold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.f1InsPassword_txt.Location = new System.Drawing.Point(72, 242);
+            this.f1InsPassword_txt.Margin = new System.Windows.Forms.Padding(0);
+            this.f1InsPassword_txt.Multiline = true;
+            this.f1InsPassword_txt.Name = "f1InsPassword_txt";
+            this.f1InsPassword_txt.PasswordChar = '*';
+            this.f1InsPassword_txt.PlaceholderText = "     What is your Password?";
+            this.f1InsPassword_txt.Size = new System.Drawing.Size(391, 40);
+            this.f1InsPassword_txt.TabIndex = 21;
             // 
             // f1InsUsername_txt
             // 
@@ -801,22 +817,6 @@
             this.label3.Size = new System.Drawing.Size(143, 54);
             this.label3.TabIndex = 17;
             this.label3.Text = "LOGIN";
-            // 
-            // label17
-            // 
-            this.label17.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label17.AutoSize = true;
-            this.label17.BackColor = System.Drawing.Color.Transparent;
-            this.label17.Font = new System.Drawing.Font("Segoe UI Semibold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label17.ForeColor = System.Drawing.Color.Black;
-            this.label17.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label17.Location = new System.Drawing.Point(45, 29);
-            this.label17.Margin = new System.Windows.Forms.Padding(0);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(132, 31);
-            this.label17.TabIndex = 37;
-            this.label17.Text = "Instructors\'";
-            this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // Form1InstructorForm
             // 
@@ -888,7 +888,7 @@
         private Label label6;
         private CheckBox checkBox1;
         private Button f1InsbtnLogin;
-        private TextBox f1IntPassword_txt;
+        private TextBox f1InsPassword_txt;
         private TextBox f1InsUsername_txt;
         private Label label5;
         private Label label4;

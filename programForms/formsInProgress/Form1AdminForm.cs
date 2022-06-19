@@ -16,8 +16,13 @@ namespace StudentManagementSystem.programForms.formsInProgress
         public Form1AdminForm()
         {
             InitializeComponent();
+            maxlength();
         }
-
+        private void maxlength()
+        {
+            username_txt.MaxLength = 20;
+            password_txt.MaxLength = 24;
+        }
         socialMedLinks AdmLnks = new socialMedLinks();
 
         private void f1AdmStupage_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
