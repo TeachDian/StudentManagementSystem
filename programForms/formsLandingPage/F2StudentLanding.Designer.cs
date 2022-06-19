@@ -72,7 +72,8 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1180, 100);
+            this.panel1.Padding = new System.Windows.Forms.Padding(0, 5, 0, 5);
+            this.panel1.Size = new System.Drawing.Size(1180, 110);
             this.panel1.TabIndex = 0;
             // 
             // iconButton21
@@ -83,7 +84,7 @@
             this.iconButton21.IconChar = FontAwesome.Sharp.IconChar.Nutritionix;
             this.iconButton21.IconColor = System.Drawing.Color.Black;
             this.iconButton21.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton21.Location = new System.Drawing.Point(971, 0);
+            this.iconButton21.Location = new System.Drawing.Point(959, 8);
             this.iconButton21.Name = "iconButton21";
             this.iconButton21.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.iconButton21.Size = new System.Drawing.Size(209, 50);
@@ -112,9 +113,9 @@
             this.panel2.Controls.Add(this.iconButton2);
             this.panel2.Controls.Add(this.iconButton1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel2.Location = new System.Drawing.Point(0, 100);
+            this.panel2.Location = new System.Drawing.Point(0, 110);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(230, 680);
+            this.panel2.Size = new System.Drawing.Size(230, 670);
             this.panel2.TabIndex = 1;
             // 
             // panel6
@@ -521,15 +522,16 @@
             this.iconButton1.Text = "iconButton1";
             this.iconButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.iconButton1.UseVisualStyleBackColor = true;
+            this.iconButton1.Click += new System.EventHandler(this.iconButton1_Click);
             // 
             // f2StuLandingPanel
             // 
             this.f2StuLandingPanel.AutoScroll = true;
             this.f2StuLandingPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.f2StuLandingPanel.Location = new System.Drawing.Point(230, 100);
+            this.f2StuLandingPanel.Location = new System.Drawing.Point(230, 110);
             this.f2StuLandingPanel.Margin = new System.Windows.Forms.Padding(0);
             this.f2StuLandingPanel.Name = "f2StuLandingPanel";
-            this.f2StuLandingPanel.Size = new System.Drawing.Size(950, 680);
+            this.f2StuLandingPanel.Size = new System.Drawing.Size(950, 670);
             this.f2StuLandingPanel.TabIndex = 2;
             // 
             // F2StudentLanding

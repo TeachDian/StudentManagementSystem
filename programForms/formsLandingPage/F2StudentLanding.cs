@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using StudentManagementSystem.programForms.formsLandingPage.f2StudentLanding;
 
 namespace StudentManagementSystem.programForms.formsLandingPage
 {
@@ -17,19 +18,28 @@ namespace StudentManagementSystem.programForms.formsLandingPage
             InitializeComponent();
         }
 
-        private void iconButton1_Click(object sender, EventArgs e)
+        private Form actvStuLnding = null;
+        private void openMainForm1Panel(Form MainForm1)
         {
-
+            if (actvStuLnding != null)
+                actvStuLnding.Close();
+            actvStuLnding = MainForm1;
+            MainForm1.TopLevel = false;
+            MainForm1.FormBorderStyle = FormBorderStyle.None;
+            MainForm1.Dock = DockStyle.Fill;
+            f2StuLandingPanel.Controls.Add(MainForm1);
+            f2StuLandingPanel.Tag = MainForm1;
+            MainForm1.BringToFront();
+            MainForm1.Show();
         }
-
-        private void panel4_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
         private void iconButton21_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void iconButton1_Click(object sender, EventArgs e)
+        {
+            openMainForm1Panel(new f2StuDashboard());
         }
     }
 }
