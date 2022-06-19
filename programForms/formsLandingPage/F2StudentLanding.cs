@@ -41,5 +41,6 @@ namespace StudentManagementSystem.programForms.formsLandingPage
         {
             openMainForm1Panel(new f2StuDashboard());
         }
+
     }
 }

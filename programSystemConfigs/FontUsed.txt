@@ -1,2 +1,6 @@
 ﻿Segoe UI Semibold, 12pt, style=Bold
 Segoe Print, 10.2pt, style=Bold
+
+
+
+Century Gothic, 10.2pt, style=Bold
