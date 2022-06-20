@@ -49,8 +49,8 @@ namespace StudentManagementSystem.programForms.formsLandingPage
                 f2StuReqSubpanel.Visible = false;
             if (f2StuExaSubpanel.Visible == true)
                 f2StuExaSubpanel.Visible = false;
-            if (f2StuLibSubpanel.Visible == true)
-                f2StuLibSubpanel.Visible = false;
+           if (f2StuLibSubpanel.Visible == true)
+                f2StuLibSubpanel.Visible = false;         
         }
 
         private void panel2Show(Panel panel2Menu)
