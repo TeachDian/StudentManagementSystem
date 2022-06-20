@@ -414,7 +414,7 @@
             this.f2StubtnShiftreq.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.f2StubtnShiftreq.IconChar = FontAwesome.Sharp.IconChar.EnvelopeOpenText;
             this.f2StubtnShiftreq.IconColor = System.Drawing.Color.Black;
-            this.f2StubtnShiftreq.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.f2StubtnShiftreq.IconFont = FontAwesome.Sharp.IconFont.Solid;
             this.f2StubtnShiftreq.IconSize = 40;
             this.f2StubtnShiftreq.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.f2StubtnShiftreq.Location = new System.Drawing.Point(0, 60);
@@ -436,7 +436,7 @@
             this.f2StubtnLeavereq.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.f2StubtnLeavereq.IconChar = FontAwesome.Sharp.IconChar.EnvelopeOpen;
             this.f2StubtnLeavereq.IconColor = System.Drawing.Color.Black;
-            this.f2StubtnLeavereq.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.f2StubtnLeavereq.IconFont = FontAwesome.Sharp.IconFont.Solid;
             this.f2StubtnLeavereq.IconSize = 40;
             this.f2StubtnLeavereq.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.f2StubtnLeavereq.Location = new System.Drawing.Point(0, 10);
@@ -458,7 +458,7 @@
             this.f2StubtnRequest.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.f2StubtnRequest.IconChar = FontAwesome.Sharp.IconChar.Envelope;
             this.f2StubtnRequest.IconColor = System.Drawing.Color.Black;
-            this.f2StubtnRequest.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.f2StubtnRequest.IconFont = FontAwesome.Sharp.IconFont.Solid;
             this.f2StubtnRequest.IconSize = 40;
             this.f2StubtnRequest.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.f2StubtnRequest.Location = new System.Drawing.Point(0, 365);
@@ -607,7 +607,7 @@
             this.f2StubtnInstructor.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.f2StubtnInstructor.IconChar = FontAwesome.Sharp.IconChar.User;
             this.f2StubtnInstructor.IconColor = System.Drawing.Color.Black;
-            this.f2StubtnInstructor.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.f2StubtnInstructor.IconFont = FontAwesome.Sharp.IconFont.Solid;
             this.f2StubtnInstructor.IconSize = 40;
             this.f2StubtnInstructor.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.f2StubtnInstructor.Location = new System.Drawing.Point(0, 50);
@@ -631,7 +631,7 @@
             this.f2StubtnDashboard.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.f2StubtnDashboard.IconChar = FontAwesome.Sharp.IconChar.AddressCard;
             this.f2StubtnDashboard.IconColor = System.Drawing.Color.Black;
-            this.f2StubtnDashboard.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.f2StubtnDashboard.IconFont = FontAwesome.Sharp.IconFont.Solid;
             this.f2StubtnDashboard.IconSize = 40;
             this.f2StubtnDashboard.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.f2StubtnDashboard.Location = new System.Drawing.Point(0, 0);
@@ -661,6 +661,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1180, 780);
             this.Controls.Add(this.f2StuLandingPanel);
             this.Controls.Add(this.panel2);
