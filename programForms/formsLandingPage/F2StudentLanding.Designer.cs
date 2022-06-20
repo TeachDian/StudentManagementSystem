@@ -146,7 +146,7 @@
             this.iconButton19.FlatAppearance.BorderSize = 0;
             this.iconButton19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.iconButton19.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.iconButton19.IconChar = FontAwesome.Sharp.IconChar.School;
+            this.iconButton19.IconChar = FontAwesome.Sharp.IconChar.MoneyBill;
             this.iconButton19.IconColor = System.Drawing.Color.Black;
             this.iconButton19.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton19.IconSize = 40;
@@ -157,7 +157,7 @@
             this.iconButton19.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.iconButton19.Size = new System.Drawing.Size(229, 50);
             this.iconButton19.TabIndex = 12;
-            this.iconButton19.Text = "Academic";
+            this.iconButton19.Text = "School Fees";
             this.iconButton19.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.iconButton19.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.iconButton19.UseCompatibleTextRendering = true;
@@ -169,7 +169,7 @@
             this.iconButton18.FlatAppearance.BorderSize = 0;
             this.iconButton18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.iconButton18.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.iconButton18.IconChar = FontAwesome.Sharp.IconChar.School;
+            this.iconButton18.IconChar = FontAwesome.Sharp.IconChar.Podcast;
             this.iconButton18.IconColor = System.Drawing.Color.Black;
             this.iconButton18.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton18.IconSize = 40;
@@ -180,7 +180,7 @@
             this.iconButton18.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.iconButton18.Size = new System.Drawing.Size(229, 50);
             this.iconButton18.TabIndex = 11;
-            this.iconButton18.Text = "Academic";
+            this.iconButton18.Text = "Events";
             this.iconButton18.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.iconButton18.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.iconButton18.UseCompatibleTextRendering = true;
@@ -203,7 +203,7 @@
             this.iconButton16.FlatAppearance.BorderSize = 0;
             this.iconButton16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.iconButton16.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.iconButton16.IconChar = FontAwesome.Sharp.IconChar.Dna;
+            this.iconButton16.IconChar = FontAwesome.Sharp.IconChar.Retweet;
             this.iconButton16.IconColor = System.Drawing.Color.Black;
             this.iconButton16.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton16.IconSize = 40;
@@ -213,7 +213,7 @@
             this.iconButton16.Padding = new System.Windows.Forms.Padding(40, 0, 30, 0);
             this.iconButton16.Size = new System.Drawing.Size(229, 50);
             this.iconButton16.TabIndex = 1;
-            this.iconButton16.Text = "Class Sched";
+            this.iconButton16.Text = "Return Book";
             this.iconButton16.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.iconButton16.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.iconButton16.UseCompatibleTextRendering = true;
@@ -225,7 +225,7 @@
             this.iconButton17.FlatAppearance.BorderSize = 0;
             this.iconButton17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.iconButton17.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.iconButton17.IconChar = FontAwesome.Sharp.IconChar.BookReader;
+            this.iconButton17.IconChar = FontAwesome.Sharp.IconChar.Search;
             this.iconButton17.IconColor = System.Drawing.Color.Black;
             this.iconButton17.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton17.IconSize = 40;
@@ -235,7 +235,7 @@
             this.iconButton17.Padding = new System.Windows.Forms.Padding(40, 0, 30, 0);
             this.iconButton17.Size = new System.Drawing.Size(229, 50);
             this.iconButton17.TabIndex = 0;
-            this.iconButton17.Text = "Subject";
+            this.iconButton17.Text = "Find Book";
             this.iconButton17.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.iconButton17.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.iconButton17.UseCompatibleTextRendering = true;
@@ -247,7 +247,7 @@
             this.iconButton15.FlatAppearance.BorderSize = 0;
             this.iconButton15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.iconButton15.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.iconButton15.IconChar = FontAwesome.Sharp.IconChar.School;
+            this.iconButton15.IconChar = FontAwesome.Sharp.IconChar.Book;
             this.iconButton15.IconColor = System.Drawing.Color.Black;
             this.iconButton15.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton15.IconSize = 40;
@@ -258,7 +258,7 @@
             this.iconButton15.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.iconButton15.Size = new System.Drawing.Size(229, 50);
             this.iconButton15.TabIndex = 9;
-            this.iconButton15.Text = "Academic";
+            this.iconButton15.Text = "Library";
             this.iconButton15.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.iconButton15.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.iconButton15.UseCompatibleTextRendering = true;
@@ -270,7 +270,7 @@
             this.iconButton14.FlatAppearance.BorderSize = 0;
             this.iconButton14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.iconButton14.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.iconButton14.IconChar = FontAwesome.Sharp.IconChar.School;
+            this.iconButton14.IconChar = FontAwesome.Sharp.IconChar.ChartBar;
             this.iconButton14.IconColor = System.Drawing.Color.Black;
             this.iconButton14.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton14.IconSize = 40;
@@ -281,7 +281,7 @@
             this.iconButton14.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.iconButton14.Size = new System.Drawing.Size(229, 50);
             this.iconButton14.TabIndex = 8;
-            this.iconButton14.Text = "Academic";
+            this.iconButton14.Text = "Attendance";
             this.iconButton14.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.iconButton14.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.iconButton14.UseCompatibleTextRendering = true;
@@ -304,7 +304,7 @@
             this.iconButton10.FlatAppearance.BorderSize = 0;
             this.iconButton10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.iconButton10.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.iconButton10.IconChar = FontAwesome.Sharp.IconChar.Dna;
+            this.iconButton10.IconChar = FontAwesome.Sharp.IconChar.None;
             this.iconButton10.IconColor = System.Drawing.Color.Black;
             this.iconButton10.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton10.IconSize = 40;
@@ -314,7 +314,7 @@
             this.iconButton10.Padding = new System.Windows.Forms.Padding(40, 0, 30, 0);
             this.iconButton10.Size = new System.Drawing.Size(229, 50);
             this.iconButton10.TabIndex = 1;
-            this.iconButton10.Text = "Class Sched";
+            this.iconButton10.Text = "====";
             this.iconButton10.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.iconButton10.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.iconButton10.UseCompatibleTextRendering = true;
@@ -326,7 +326,7 @@
             this.iconButton13.FlatAppearance.BorderSize = 0;
             this.iconButton13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.iconButton13.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.iconButton13.IconChar = FontAwesome.Sharp.IconChar.BookReader;
+            this.iconButton13.IconChar = FontAwesome.Sharp.IconChar.None;
             this.iconButton13.IconColor = System.Drawing.Color.Black;
             this.iconButton13.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton13.IconSize = 40;
@@ -336,7 +336,7 @@
             this.iconButton13.Padding = new System.Windows.Forms.Padding(40, 0, 30, 0);
             this.iconButton13.Size = new System.Drawing.Size(229, 50);
             this.iconButton13.TabIndex = 0;
-            this.iconButton13.Text = "Subject";
+            this.iconButton13.Text = "====";
             this.iconButton13.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.iconButton13.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.iconButton13.UseCompatibleTextRendering = true;
@@ -348,7 +348,7 @@
             this.iconButton9.FlatAppearance.BorderSize = 0;
             this.iconButton9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.iconButton9.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.iconButton9.IconChar = FontAwesome.Sharp.IconChar.School;
+            this.iconButton9.IconChar = FontAwesome.Sharp.IconChar.FileExport;
             this.iconButton9.IconColor = System.Drawing.Color.Black;
             this.iconButton9.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton9.IconSize = 40;
@@ -359,7 +359,7 @@
             this.iconButton9.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.iconButton9.Size = new System.Drawing.Size(229, 50);
             this.iconButton9.TabIndex = 6;
-            this.iconButton9.Text = "Academic";
+            this.iconButton9.Text = "Exam Master";
             this.iconButton9.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.iconButton9.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.iconButton9.UseCompatibleTextRendering = true;
@@ -382,7 +382,7 @@
             this.iconButton11.FlatAppearance.BorderSize = 0;
             this.iconButton11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.iconButton11.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.iconButton11.IconChar = FontAwesome.Sharp.IconChar.Dna;
+            this.iconButton11.IconChar = FontAwesome.Sharp.IconChar.EnvelopeOpenText;
             this.iconButton11.IconColor = System.Drawing.Color.Black;
             this.iconButton11.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton11.IconSize = 40;
@@ -392,8 +392,7 @@
             this.iconButton11.Padding = new System.Windows.Forms.Padding(40, 0, 30, 0);
             this.iconButton11.Size = new System.Drawing.Size(229, 50);
             this.iconButton11.TabIndex = 1;
-            this.iconButton11.Text = "Class Sched";
-            this.iconButton11.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.iconButton11.Text = "Shift Request";
             this.iconButton11.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.iconButton11.UseCompatibleTextRendering = true;
             this.iconButton11.UseVisualStyleBackColor = true;
@@ -404,7 +403,7 @@
             this.iconButton12.FlatAppearance.BorderSize = 0;
             this.iconButton12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.iconButton12.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.iconButton12.IconChar = FontAwesome.Sharp.IconChar.BookReader;
+            this.iconButton12.IconChar = FontAwesome.Sharp.IconChar.EnvelopeOpen;
             this.iconButton12.IconColor = System.Drawing.Color.Black;
             this.iconButton12.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton12.IconSize = 40;
@@ -414,8 +413,7 @@
             this.iconButton12.Padding = new System.Windows.Forms.Padding(40, 0, 30, 0);
             this.iconButton12.Size = new System.Drawing.Size(229, 50);
             this.iconButton12.TabIndex = 0;
-            this.iconButton12.Text = "Subject";
-            this.iconButton12.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.iconButton12.Text = "Leave Request";
             this.iconButton12.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.iconButton12.UseCompatibleTextRendering = true;
             this.iconButton12.UseVisualStyleBackColor = true;
@@ -462,7 +460,7 @@
             this.iconButton7.FlatAppearance.BorderSize = 0;
             this.iconButton7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.iconButton7.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.iconButton7.IconChar = FontAwesome.Sharp.IconChar.Book;
+            this.iconButton7.IconChar = FontAwesome.Sharp.IconChar.FileDownload;
             this.iconButton7.IconColor = System.Drawing.Color.Black;
             this.iconButton7.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButton7.IconSize = 40;
