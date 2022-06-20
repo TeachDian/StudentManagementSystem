@@ -29,46 +29,46 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.iconButton21 = new FontAwesome.Sharp.IconButton();
+            this.btnLogout = new FontAwesome.Sharp.IconButton();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.iconButton19 = new FontAwesome.Sharp.IconButton();
-            this.iconButton18 = new FontAwesome.Sharp.IconButton();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.iconButton16 = new FontAwesome.Sharp.IconButton();
-            this.iconButton17 = new FontAwesome.Sharp.IconButton();
-            this.iconButton15 = new FontAwesome.Sharp.IconButton();
-            this.iconButton14 = new FontAwesome.Sharp.IconButton();
-            this.panel4 = new System.Windows.Forms.Panel();
+            this.f2StubtnSchoolfees = new FontAwesome.Sharp.IconButton();
+            this.f2StubtnEvents = new FontAwesome.Sharp.IconButton();
+            this.f2StuLibSubpanel = new System.Windows.Forms.Panel();
+            this.f2StubtnReturnbook = new FontAwesome.Sharp.IconButton();
+            this.f2StubtnFindbook = new FontAwesome.Sharp.IconButton();
+            this.f2StubtnLibrary = new FontAwesome.Sharp.IconButton();
+            this.f2StubtnAttendance = new FontAwesome.Sharp.IconButton();
+            this.f2StuExaSubpanel = new System.Windows.Forms.Panel();
             this.iconButton10 = new FontAwesome.Sharp.IconButton();
             this.iconButton13 = new FontAwesome.Sharp.IconButton();
-            this.iconButton9 = new FontAwesome.Sharp.IconButton();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.iconButton11 = new FontAwesome.Sharp.IconButton();
-            this.iconButton12 = new FontAwesome.Sharp.IconButton();
-            this.iconButton8 = new FontAwesome.Sharp.IconButton();
-            this.button3panel = new System.Windows.Forms.Panel();
-            this.iconButton7 = new FontAwesome.Sharp.IconButton();
-            this.iconButton6 = new FontAwesome.Sharp.IconButton();
-            this.iconButton5 = new FontAwesome.Sharp.IconButton();
-            this.iconButton4 = new FontAwesome.Sharp.IconButton();
-            this.iconButton3 = new FontAwesome.Sharp.IconButton();
-            this.iconButton2 = new FontAwesome.Sharp.IconButton();
-            this.iconButton1 = new FontAwesome.Sharp.IconButton();
+            this.f2StubtnExamMaster = new FontAwesome.Sharp.IconButton();
+            this.f2StuReqSubpanel = new System.Windows.Forms.Panel();
+            this.f2StubtnShiftreq = new FontAwesome.Sharp.IconButton();
+            this.f2StubtnLeavereq = new FontAwesome.Sharp.IconButton();
+            this.f2StubtnRequest = new FontAwesome.Sharp.IconButton();
+            this.f2StuAcaSubpanel = new System.Windows.Forms.Panel();
+            this.f2StubtnViewcor = new FontAwesome.Sharp.IconButton();
+            this.f2StubtnCuriculum = new FontAwesome.Sharp.IconButton();
+            this.f2StubtnClassSched = new FontAwesome.Sharp.IconButton();
+            this.f2StubtnSubject = new FontAwesome.Sharp.IconButton();
+            this.f2StubtnAcademic = new FontAwesome.Sharp.IconButton();
+            this.f2StubtnInstructor = new FontAwesome.Sharp.IconButton();
+            this.f2StubtnDashboard = new FontAwesome.Sharp.IconButton();
             this.f2StuLandingPanel = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel6.SuspendLayout();
-            this.panel5.SuspendLayout();
-            this.panel4.SuspendLayout();
-            this.panel3.SuspendLayout();
-            this.button3panel.SuspendLayout();
+            this.f2StuLibSubpanel.SuspendLayout();
+            this.f2StuExaSubpanel.SuspendLayout();
+            this.f2StuReqSubpanel.SuspendLayout();
+            this.f2StuAcaSubpanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.iconButton21);
+            this.panel1.Controls.Add(this.btnLogout);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(0);
@@ -77,42 +77,42 @@
             this.panel1.Size = new System.Drawing.Size(1180, 110);
             this.panel1.TabIndex = 0;
             // 
-            // iconButton21
+            // btnLogout
             // 
-            this.iconButton21.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.iconButton21.FlatAppearance.BorderSize = 0;
-            this.iconButton21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton21.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.iconButton21.IconChar = FontAwesome.Sharp.IconChar.Nutritionix;
-            this.iconButton21.IconColor = System.Drawing.Color.Black;
-            this.iconButton21.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton21.Location = new System.Drawing.Point(971, 0);
-            this.iconButton21.Name = "iconButton21";
-            this.iconButton21.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.iconButton21.Size = new System.Drawing.Size(209, 50);
-            this.iconButton21.TabIndex = 1;
-            this.iconButton21.Text = "Logout";
-            this.iconButton21.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton21.UseVisualStyleBackColor = true;
-            this.iconButton21.Click += new System.EventHandler(this.iconButton21_Click);
+            this.btnLogout.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnLogout.FlatAppearance.BorderSize = 0;
+            this.btnLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLogout.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnLogout.IconChar = FontAwesome.Sharp.IconChar.UserLock;
+            this.btnLogout.IconColor = System.Drawing.Color.Black;
+            this.btnLogout.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnLogout.Location = new System.Drawing.Point(971, 0);
+            this.btnLogout.Name = "btnLogout";
+            this.btnLogout.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btnLogout.Size = new System.Drawing.Size(209, 50);
+            this.btnLogout.TabIndex = 1;
+            this.btnLogout.Text = "Logout";
+            this.btnLogout.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnLogout.UseVisualStyleBackColor = true;
+            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
             // 
             // panel2
             // 
             this.panel2.AutoScroll = true;
             this.panel2.Controls.Add(this.panel6);
-            this.panel2.Controls.Add(this.iconButton19);
-            this.panel2.Controls.Add(this.iconButton18);
-            this.panel2.Controls.Add(this.panel5);
-            this.panel2.Controls.Add(this.iconButton15);
-            this.panel2.Controls.Add(this.iconButton14);
-            this.panel2.Controls.Add(this.panel4);
-            this.panel2.Controls.Add(this.iconButton9);
-            this.panel2.Controls.Add(this.panel3);
-            this.panel2.Controls.Add(this.iconButton8);
-            this.panel2.Controls.Add(this.button3panel);
-            this.panel2.Controls.Add(this.iconButton3);
-            this.panel2.Controls.Add(this.iconButton2);
-            this.panel2.Controls.Add(this.iconButton1);
+            this.panel2.Controls.Add(this.f2StubtnSchoolfees);
+            this.panel2.Controls.Add(this.f2StubtnEvents);
+            this.panel2.Controls.Add(this.f2StuLibSubpanel);
+            this.panel2.Controls.Add(this.f2StubtnLibrary);
+            this.panel2.Controls.Add(this.f2StubtnAttendance);
+            this.panel2.Controls.Add(this.f2StuExaSubpanel);
+            this.panel2.Controls.Add(this.f2StubtnExamMaster);
+            this.panel2.Controls.Add(this.f2StuReqSubpanel);
+            this.panel2.Controls.Add(this.f2StubtnRequest);
+            this.panel2.Controls.Add(this.f2StuAcaSubpanel);
+            this.panel2.Controls.Add(this.f2StubtnAcademic);
+            this.panel2.Controls.Add(this.f2StubtnInstructor);
+            this.panel2.Controls.Add(this.f2StubtnDashboard);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.Location = new System.Drawing.Point(0, 110);
             this.panel2.Name = "panel2";
@@ -140,163 +140,163 @@
             this.label1.Text = "App Version";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // iconButton19
+            // f2StubtnSchoolfees
             // 
-            this.iconButton19.Dock = System.Windows.Forms.DockStyle.Top;
-            this.iconButton19.FlatAppearance.BorderSize = 0;
-            this.iconButton19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton19.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.iconButton19.IconChar = FontAwesome.Sharp.IconChar.MoneyBill;
-            this.iconButton19.IconColor = System.Drawing.Color.Black;
-            this.iconButton19.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton19.IconSize = 40;
-            this.iconButton19.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton19.Location = new System.Drawing.Point(0, 960);
-            this.iconButton19.Name = "iconButton19";
-            this.iconButton19.Padding = new System.Windows.Forms.Padding(30, 0, 30, 0);
-            this.iconButton19.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.iconButton19.Size = new System.Drawing.Size(229, 50);
-            this.iconButton19.TabIndex = 12;
-            this.iconButton19.Text = "School Fees";
-            this.iconButton19.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.iconButton19.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton19.UseCompatibleTextRendering = true;
-            this.iconButton19.UseVisualStyleBackColor = true;
+            this.f2StubtnSchoolfees.Dock = System.Windows.Forms.DockStyle.Top;
+            this.f2StubtnSchoolfees.FlatAppearance.BorderSize = 0;
+            this.f2StubtnSchoolfees.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.f2StubtnSchoolfees.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.f2StubtnSchoolfees.IconChar = FontAwesome.Sharp.IconChar.MoneyBill;
+            this.f2StubtnSchoolfees.IconColor = System.Drawing.Color.Black;
+            this.f2StubtnSchoolfees.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.f2StubtnSchoolfees.IconSize = 40;
+            this.f2StubtnSchoolfees.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.f2StubtnSchoolfees.Location = new System.Drawing.Point(0, 960);
+            this.f2StubtnSchoolfees.Name = "f2StubtnSchoolfees";
+            this.f2StubtnSchoolfees.Padding = new System.Windows.Forms.Padding(30, 0, 30, 0);
+            this.f2StubtnSchoolfees.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.f2StubtnSchoolfees.Size = new System.Drawing.Size(229, 50);
+            this.f2StubtnSchoolfees.TabIndex = 12;
+            this.f2StubtnSchoolfees.Text = "School Fees";
+            this.f2StubtnSchoolfees.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.f2StubtnSchoolfees.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.f2StubtnSchoolfees.UseCompatibleTextRendering = true;
+            this.f2StubtnSchoolfees.UseVisualStyleBackColor = true;
             // 
-            // iconButton18
+            // f2StubtnEvents
             // 
-            this.iconButton18.Dock = System.Windows.Forms.DockStyle.Top;
-            this.iconButton18.FlatAppearance.BorderSize = 0;
-            this.iconButton18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton18.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.iconButton18.IconChar = FontAwesome.Sharp.IconChar.Podcast;
-            this.iconButton18.IconColor = System.Drawing.Color.Black;
-            this.iconButton18.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton18.IconSize = 40;
-            this.iconButton18.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton18.Location = new System.Drawing.Point(0, 910);
-            this.iconButton18.Name = "iconButton18";
-            this.iconButton18.Padding = new System.Windows.Forms.Padding(30, 0, 30, 0);
-            this.iconButton18.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.iconButton18.Size = new System.Drawing.Size(229, 50);
-            this.iconButton18.TabIndex = 11;
-            this.iconButton18.Text = "Events";
-            this.iconButton18.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.iconButton18.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton18.UseCompatibleTextRendering = true;
-            this.iconButton18.UseVisualStyleBackColor = true;
+            this.f2StubtnEvents.Dock = System.Windows.Forms.DockStyle.Top;
+            this.f2StubtnEvents.FlatAppearance.BorderSize = 0;
+            this.f2StubtnEvents.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.f2StubtnEvents.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.f2StubtnEvents.IconChar = FontAwesome.Sharp.IconChar.Podcast;
+            this.f2StubtnEvents.IconColor = System.Drawing.Color.Black;
+            this.f2StubtnEvents.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.f2StubtnEvents.IconSize = 40;
+            this.f2StubtnEvents.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.f2StubtnEvents.Location = new System.Drawing.Point(0, 910);
+            this.f2StubtnEvents.Name = "f2StubtnEvents";
+            this.f2StubtnEvents.Padding = new System.Windows.Forms.Padding(30, 0, 30, 0);
+            this.f2StubtnEvents.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.f2StubtnEvents.Size = new System.Drawing.Size(229, 50);
+            this.f2StubtnEvents.TabIndex = 11;
+            this.f2StubtnEvents.Text = "Events";
+            this.f2StubtnEvents.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.f2StubtnEvents.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.f2StubtnEvents.UseCompatibleTextRendering = true;
+            this.f2StubtnEvents.UseVisualStyleBackColor = true;
             // 
-            // panel5
+            // f2StuLibSubpanel
             // 
-            this.panel5.Controls.Add(this.iconButton16);
-            this.panel5.Controls.Add(this.iconButton17);
-            this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel5.Location = new System.Drawing.Point(0, 795);
-            this.panel5.Name = "panel5";
-            this.panel5.Padding = new System.Windows.Forms.Padding(0, 10, 0, 5);
-            this.panel5.Size = new System.Drawing.Size(229, 115);
-            this.panel5.TabIndex = 10;
+            this.f2StuLibSubpanel.Controls.Add(this.f2StubtnReturnbook);
+            this.f2StuLibSubpanel.Controls.Add(this.f2StubtnFindbook);
+            this.f2StuLibSubpanel.Dock = System.Windows.Forms.DockStyle.Top;
+            this.f2StuLibSubpanel.Location = new System.Drawing.Point(0, 795);
+            this.f2StuLibSubpanel.Name = "f2StuLibSubpanel";
+            this.f2StuLibSubpanel.Padding = new System.Windows.Forms.Padding(0, 10, 0, 5);
+            this.f2StuLibSubpanel.Size = new System.Drawing.Size(229, 115);
+            this.f2StuLibSubpanel.TabIndex = 10;
             // 
-            // iconButton16
+            // f2StubtnReturnbook
             // 
-            this.iconButton16.Dock = System.Windows.Forms.DockStyle.Top;
-            this.iconButton16.FlatAppearance.BorderSize = 0;
-            this.iconButton16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton16.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.iconButton16.IconChar = FontAwesome.Sharp.IconChar.Retweet;
-            this.iconButton16.IconColor = System.Drawing.Color.Black;
-            this.iconButton16.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton16.IconSize = 40;
-            this.iconButton16.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton16.Location = new System.Drawing.Point(0, 60);
-            this.iconButton16.Name = "iconButton16";
-            this.iconButton16.Padding = new System.Windows.Forms.Padding(40, 0, 30, 0);
-            this.iconButton16.Size = new System.Drawing.Size(229, 50);
-            this.iconButton16.TabIndex = 1;
-            this.iconButton16.Text = "Return Book";
-            this.iconButton16.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.iconButton16.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton16.UseCompatibleTextRendering = true;
-            this.iconButton16.UseVisualStyleBackColor = true;
+            this.f2StubtnReturnbook.Dock = System.Windows.Forms.DockStyle.Top;
+            this.f2StubtnReturnbook.FlatAppearance.BorderSize = 0;
+            this.f2StubtnReturnbook.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.f2StubtnReturnbook.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.f2StubtnReturnbook.IconChar = FontAwesome.Sharp.IconChar.Retweet;
+            this.f2StubtnReturnbook.IconColor = System.Drawing.Color.Black;
+            this.f2StubtnReturnbook.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.f2StubtnReturnbook.IconSize = 40;
+            this.f2StubtnReturnbook.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.f2StubtnReturnbook.Location = new System.Drawing.Point(0, 60);
+            this.f2StubtnReturnbook.Name = "f2StubtnReturnbook";
+            this.f2StubtnReturnbook.Padding = new System.Windows.Forms.Padding(40, 0, 30, 0);
+            this.f2StubtnReturnbook.Size = new System.Drawing.Size(229, 50);
+            this.f2StubtnReturnbook.TabIndex = 1;
+            this.f2StubtnReturnbook.Text = "Return Book";
+            this.f2StubtnReturnbook.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.f2StubtnReturnbook.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.f2StubtnReturnbook.UseCompatibleTextRendering = true;
+            this.f2StubtnReturnbook.UseVisualStyleBackColor = true;
             // 
-            // iconButton17
+            // f2StubtnFindbook
             // 
-            this.iconButton17.Dock = System.Windows.Forms.DockStyle.Top;
-            this.iconButton17.FlatAppearance.BorderSize = 0;
-            this.iconButton17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton17.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.iconButton17.IconChar = FontAwesome.Sharp.IconChar.Search;
-            this.iconButton17.IconColor = System.Drawing.Color.Black;
-            this.iconButton17.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton17.IconSize = 40;
-            this.iconButton17.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton17.Location = new System.Drawing.Point(0, 10);
-            this.iconButton17.Name = "iconButton17";
-            this.iconButton17.Padding = new System.Windows.Forms.Padding(40, 0, 30, 0);
-            this.iconButton17.Size = new System.Drawing.Size(229, 50);
-            this.iconButton17.TabIndex = 0;
-            this.iconButton17.Text = "Find Book";
-            this.iconButton17.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.iconButton17.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton17.UseCompatibleTextRendering = true;
-            this.iconButton17.UseVisualStyleBackColor = true;
+            this.f2StubtnFindbook.Dock = System.Windows.Forms.DockStyle.Top;
+            this.f2StubtnFindbook.FlatAppearance.BorderSize = 0;
+            this.f2StubtnFindbook.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.f2StubtnFindbook.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.f2StubtnFindbook.IconChar = FontAwesome.Sharp.IconChar.Search;
+            this.f2StubtnFindbook.IconColor = System.Drawing.Color.Black;
+            this.f2StubtnFindbook.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.f2StubtnFindbook.IconSize = 40;
+            this.f2StubtnFindbook.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.f2StubtnFindbook.Location = new System.Drawing.Point(0, 10);
+            this.f2StubtnFindbook.Name = "f2StubtnFindbook";
+            this.f2StubtnFindbook.Padding = new System.Windows.Forms.Padding(40, 0, 30, 0);
+            this.f2StubtnFindbook.Size = new System.Drawing.Size(229, 50);
+            this.f2StubtnFindbook.TabIndex = 0;
+            this.f2StubtnFindbook.Text = "Find Book";
+            this.f2StubtnFindbook.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.f2StubtnFindbook.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.f2StubtnFindbook.UseCompatibleTextRendering = true;
+            this.f2StubtnFindbook.UseVisualStyleBackColor = true;
             // 
-            // iconButton15
+            // f2StubtnLibrary
             // 
-            this.iconButton15.Dock = System.Windows.Forms.DockStyle.Top;
-            this.iconButton15.FlatAppearance.BorderSize = 0;
-            this.iconButton15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton15.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.iconButton15.IconChar = FontAwesome.Sharp.IconChar.Book;
-            this.iconButton15.IconColor = System.Drawing.Color.Black;
-            this.iconButton15.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton15.IconSize = 40;
-            this.iconButton15.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton15.Location = new System.Drawing.Point(0, 745);
-            this.iconButton15.Name = "iconButton15";
-            this.iconButton15.Padding = new System.Windows.Forms.Padding(30, 0, 30, 0);
-            this.iconButton15.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.iconButton15.Size = new System.Drawing.Size(229, 50);
-            this.iconButton15.TabIndex = 9;
-            this.iconButton15.Text = "Library";
-            this.iconButton15.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.iconButton15.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton15.UseCompatibleTextRendering = true;
-            this.iconButton15.UseVisualStyleBackColor = true;
+            this.f2StubtnLibrary.Dock = System.Windows.Forms.DockStyle.Top;
+            this.f2StubtnLibrary.FlatAppearance.BorderSize = 0;
+            this.f2StubtnLibrary.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.f2StubtnLibrary.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.f2StubtnLibrary.IconChar = FontAwesome.Sharp.IconChar.Book;
+            this.f2StubtnLibrary.IconColor = System.Drawing.Color.Black;
+            this.f2StubtnLibrary.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.f2StubtnLibrary.IconSize = 40;
+            this.f2StubtnLibrary.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.f2StubtnLibrary.Location = new System.Drawing.Point(0, 745);
+            this.f2StubtnLibrary.Name = "f2StubtnLibrary";
+            this.f2StubtnLibrary.Padding = new System.Windows.Forms.Padding(30, 0, 30, 0);
+            this.f2StubtnLibrary.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.f2StubtnLibrary.Size = new System.Drawing.Size(229, 50);
+            this.f2StubtnLibrary.TabIndex = 9;
+            this.f2StubtnLibrary.Text = "Library";
+            this.f2StubtnLibrary.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.f2StubtnLibrary.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.f2StubtnLibrary.UseCompatibleTextRendering = true;
+            this.f2StubtnLibrary.UseVisualStyleBackColor = true;
             // 
-            // iconButton14
+            // f2StubtnAttendance
             // 
-            this.iconButton14.Dock = System.Windows.Forms.DockStyle.Top;
-            this.iconButton14.FlatAppearance.BorderSize = 0;
-            this.iconButton14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton14.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.iconButton14.IconChar = FontAwesome.Sharp.IconChar.ChartBar;
-            this.iconButton14.IconColor = System.Drawing.Color.Black;
-            this.iconButton14.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton14.IconSize = 40;
-            this.iconButton14.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton14.Location = new System.Drawing.Point(0, 695);
-            this.iconButton14.Name = "iconButton14";
-            this.iconButton14.Padding = new System.Windows.Forms.Padding(30, 0, 30, 0);
-            this.iconButton14.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.iconButton14.Size = new System.Drawing.Size(229, 50);
-            this.iconButton14.TabIndex = 8;
-            this.iconButton14.Text = "Attendance";
-            this.iconButton14.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.iconButton14.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton14.UseCompatibleTextRendering = true;
-            this.iconButton14.UseVisualStyleBackColor = true;
+            this.f2StubtnAttendance.Dock = System.Windows.Forms.DockStyle.Top;
+            this.f2StubtnAttendance.FlatAppearance.BorderSize = 0;
+            this.f2StubtnAttendance.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.f2StubtnAttendance.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.f2StubtnAttendance.IconChar = FontAwesome.Sharp.IconChar.ChartBar;
+            this.f2StubtnAttendance.IconColor = System.Drawing.Color.Black;
+            this.f2StubtnAttendance.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.f2StubtnAttendance.IconSize = 40;
+            this.f2StubtnAttendance.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.f2StubtnAttendance.Location = new System.Drawing.Point(0, 695);
+            this.f2StubtnAttendance.Name = "f2StubtnAttendance";
+            this.f2StubtnAttendance.Padding = new System.Windows.Forms.Padding(30, 0, 30, 0);
+            this.f2StubtnAttendance.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.f2StubtnAttendance.Size = new System.Drawing.Size(229, 50);
+            this.f2StubtnAttendance.TabIndex = 8;
+            this.f2StubtnAttendance.Text = "Attendance";
+            this.f2StubtnAttendance.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.f2StubtnAttendance.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.f2StubtnAttendance.UseCompatibleTextRendering = true;
+            this.f2StubtnAttendance.UseVisualStyleBackColor = true;
             // 
-            // panel4
+            // f2StuExaSubpanel
             // 
-            this.panel4.Controls.Add(this.iconButton10);
-            this.panel4.Controls.Add(this.iconButton13);
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel4.Location = new System.Drawing.Point(0, 580);
-            this.panel4.Name = "panel4";
-            this.panel4.Padding = new System.Windows.Forms.Padding(0, 10, 0, 5);
-            this.panel4.Size = new System.Drawing.Size(229, 115);
-            this.panel4.TabIndex = 7;
+            this.f2StuExaSubpanel.Controls.Add(this.iconButton10);
+            this.f2StuExaSubpanel.Controls.Add(this.iconButton13);
+            this.f2StuExaSubpanel.Dock = System.Windows.Forms.DockStyle.Top;
+            this.f2StuExaSubpanel.Location = new System.Drawing.Point(0, 580);
+            this.f2StuExaSubpanel.Name = "f2StuExaSubpanel";
+            this.f2StuExaSubpanel.Padding = new System.Windows.Forms.Padding(0, 10, 0, 5);
+            this.f2StuExaSubpanel.Size = new System.Drawing.Size(229, 115);
+            this.f2StuExaSubpanel.TabIndex = 7;
             // 
             // iconButton10
             // 
@@ -342,271 +342,270 @@
             this.iconButton13.UseCompatibleTextRendering = true;
             this.iconButton13.UseVisualStyleBackColor = true;
             // 
-            // iconButton9
+            // f2StubtnExamMaster
             // 
-            this.iconButton9.Dock = System.Windows.Forms.DockStyle.Top;
-            this.iconButton9.FlatAppearance.BorderSize = 0;
-            this.iconButton9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton9.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.iconButton9.IconChar = FontAwesome.Sharp.IconChar.FileExport;
-            this.iconButton9.IconColor = System.Drawing.Color.Black;
-            this.iconButton9.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton9.IconSize = 40;
-            this.iconButton9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton9.Location = new System.Drawing.Point(0, 530);
-            this.iconButton9.Name = "iconButton9";
-            this.iconButton9.Padding = new System.Windows.Forms.Padding(30, 0, 30, 0);
-            this.iconButton9.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.iconButton9.Size = new System.Drawing.Size(229, 50);
-            this.iconButton9.TabIndex = 6;
-            this.iconButton9.Text = "Exam Master";
-            this.iconButton9.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.iconButton9.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton9.UseCompatibleTextRendering = true;
-            this.iconButton9.UseVisualStyleBackColor = true;
+            this.f2StubtnExamMaster.Dock = System.Windows.Forms.DockStyle.Top;
+            this.f2StubtnExamMaster.FlatAppearance.BorderSize = 0;
+            this.f2StubtnExamMaster.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.f2StubtnExamMaster.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.f2StubtnExamMaster.IconChar = FontAwesome.Sharp.IconChar.FileExport;
+            this.f2StubtnExamMaster.IconColor = System.Drawing.Color.Black;
+            this.f2StubtnExamMaster.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.f2StubtnExamMaster.IconSize = 40;
+            this.f2StubtnExamMaster.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.f2StubtnExamMaster.Location = new System.Drawing.Point(0, 530);
+            this.f2StubtnExamMaster.Name = "f2StubtnExamMaster";
+            this.f2StubtnExamMaster.Padding = new System.Windows.Forms.Padding(30, 0, 30, 0);
+            this.f2StubtnExamMaster.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.f2StubtnExamMaster.Size = new System.Drawing.Size(229, 50);
+            this.f2StubtnExamMaster.TabIndex = 6;
+            this.f2StubtnExamMaster.Text = "Exam Master";
+            this.f2StubtnExamMaster.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.f2StubtnExamMaster.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.f2StubtnExamMaster.UseCompatibleTextRendering = true;
+            this.f2StubtnExamMaster.UseVisualStyleBackColor = true;
             // 
-            // panel3
+            // f2StuReqSubpanel
             // 
-            this.panel3.Controls.Add(this.iconButton11);
-            this.panel3.Controls.Add(this.iconButton12);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel3.Location = new System.Drawing.Point(0, 415);
-            this.panel3.Name = "panel3";
-            this.panel3.Padding = new System.Windows.Forms.Padding(0, 10, 0, 5);
-            this.panel3.Size = new System.Drawing.Size(229, 115);
-            this.panel3.TabIndex = 5;
+            this.f2StuReqSubpanel.Controls.Add(this.f2StubtnShiftreq);
+            this.f2StuReqSubpanel.Controls.Add(this.f2StubtnLeavereq);
+            this.f2StuReqSubpanel.Dock = System.Windows.Forms.DockStyle.Top;
+            this.f2StuReqSubpanel.Location = new System.Drawing.Point(0, 415);
+            this.f2StuReqSubpanel.Name = "f2StuReqSubpanel";
+            this.f2StuReqSubpanel.Padding = new System.Windows.Forms.Padding(0, 10, 0, 5);
+            this.f2StuReqSubpanel.Size = new System.Drawing.Size(229, 115);
+            this.f2StuReqSubpanel.TabIndex = 5;
             // 
-            // iconButton11
+            // f2StubtnShiftreq
             // 
-            this.iconButton11.Dock = System.Windows.Forms.DockStyle.Top;
-            this.iconButton11.FlatAppearance.BorderSize = 0;
-            this.iconButton11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton11.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.iconButton11.IconChar = FontAwesome.Sharp.IconChar.EnvelopeOpenText;
-            this.iconButton11.IconColor = System.Drawing.Color.Black;
-            this.iconButton11.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton11.IconSize = 40;
-            this.iconButton11.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton11.Location = new System.Drawing.Point(0, 60);
-            this.iconButton11.Name = "iconButton11";
-            this.iconButton11.Padding = new System.Windows.Forms.Padding(40, 0, 30, 0);
-            this.iconButton11.Size = new System.Drawing.Size(229, 50);
-            this.iconButton11.TabIndex = 1;
-            this.iconButton11.Text = "Shift Request";
-            this.iconButton11.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton11.UseCompatibleTextRendering = true;
-            this.iconButton11.UseVisualStyleBackColor = true;
+            this.f2StubtnShiftreq.Dock = System.Windows.Forms.DockStyle.Top;
+            this.f2StubtnShiftreq.FlatAppearance.BorderSize = 0;
+            this.f2StubtnShiftreq.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.f2StubtnShiftreq.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.f2StubtnShiftreq.IconChar = FontAwesome.Sharp.IconChar.EnvelopeOpenText;
+            this.f2StubtnShiftreq.IconColor = System.Drawing.Color.Black;
+            this.f2StubtnShiftreq.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.f2StubtnShiftreq.IconSize = 40;
+            this.f2StubtnShiftreq.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.f2StubtnShiftreq.Location = new System.Drawing.Point(0, 60);
+            this.f2StubtnShiftreq.Name = "f2StubtnShiftreq";
+            this.f2StubtnShiftreq.Padding = new System.Windows.Forms.Padding(40, 0, 30, 0);
+            this.f2StubtnShiftreq.Size = new System.Drawing.Size(229, 50);
+            this.f2StubtnShiftreq.TabIndex = 1;
+            this.f2StubtnShiftreq.Text = "Shift Request";
+            this.f2StubtnShiftreq.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.f2StubtnShiftreq.UseCompatibleTextRendering = true;
+            this.f2StubtnShiftreq.UseVisualStyleBackColor = true;
             // 
-            // iconButton12
+            // f2StubtnLeavereq
             // 
-            this.iconButton12.Dock = System.Windows.Forms.DockStyle.Top;
-            this.iconButton12.FlatAppearance.BorderSize = 0;
-            this.iconButton12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton12.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.iconButton12.IconChar = FontAwesome.Sharp.IconChar.EnvelopeOpen;
-            this.iconButton12.IconColor = System.Drawing.Color.Black;
-            this.iconButton12.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton12.IconSize = 40;
-            this.iconButton12.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton12.Location = new System.Drawing.Point(0, 10);
-            this.iconButton12.Name = "iconButton12";
-            this.iconButton12.Padding = new System.Windows.Forms.Padding(40, 0, 30, 0);
-            this.iconButton12.Size = new System.Drawing.Size(229, 50);
-            this.iconButton12.TabIndex = 0;
-            this.iconButton12.Text = "Leave Request";
-            this.iconButton12.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton12.UseCompatibleTextRendering = true;
-            this.iconButton12.UseVisualStyleBackColor = true;
+            this.f2StubtnLeavereq.Dock = System.Windows.Forms.DockStyle.Top;
+            this.f2StubtnLeavereq.FlatAppearance.BorderSize = 0;
+            this.f2StubtnLeavereq.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.f2StubtnLeavereq.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.f2StubtnLeavereq.IconChar = FontAwesome.Sharp.IconChar.EnvelopeOpen;
+            this.f2StubtnLeavereq.IconColor = System.Drawing.Color.Black;
+            this.f2StubtnLeavereq.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.f2StubtnLeavereq.IconSize = 40;
+            this.f2StubtnLeavereq.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.f2StubtnLeavereq.Location = new System.Drawing.Point(0, 10);
+            this.f2StubtnLeavereq.Name = "f2StubtnLeavereq";
+            this.f2StubtnLeavereq.Padding = new System.Windows.Forms.Padding(40, 0, 30, 0);
+            this.f2StubtnLeavereq.Size = new System.Drawing.Size(229, 50);
+            this.f2StubtnLeavereq.TabIndex = 0;
+            this.f2StubtnLeavereq.Text = "Leave Request";
+            this.f2StubtnLeavereq.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.f2StubtnLeavereq.UseCompatibleTextRendering = true;
+            this.f2StubtnLeavereq.UseVisualStyleBackColor = true;
             // 
-            // iconButton8
+            // f2StubtnRequest
             // 
-            this.iconButton8.Dock = System.Windows.Forms.DockStyle.Top;
-            this.iconButton8.FlatAppearance.BorderSize = 0;
-            this.iconButton8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton8.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.iconButton8.IconChar = FontAwesome.Sharp.IconChar.Envelope;
-            this.iconButton8.IconColor = System.Drawing.Color.Black;
-            this.iconButton8.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton8.IconSize = 40;
-            this.iconButton8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton8.Location = new System.Drawing.Point(0, 365);
-            this.iconButton8.Name = "iconButton8";
-            this.iconButton8.Padding = new System.Windows.Forms.Padding(30, 0, 30, 0);
-            this.iconButton8.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.iconButton8.Size = new System.Drawing.Size(229, 50);
-            this.iconButton8.TabIndex = 4;
-            this.iconButton8.Text = "Requests";
-            this.iconButton8.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.iconButton8.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton8.UseCompatibleTextRendering = true;
-            this.iconButton8.UseVisualStyleBackColor = true;
+            this.f2StubtnRequest.Dock = System.Windows.Forms.DockStyle.Top;
+            this.f2StubtnRequest.FlatAppearance.BorderSize = 0;
+            this.f2StubtnRequest.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.f2StubtnRequest.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.f2StubtnRequest.IconChar = FontAwesome.Sharp.IconChar.Envelope;
+            this.f2StubtnRequest.IconColor = System.Drawing.Color.Black;
+            this.f2StubtnRequest.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.f2StubtnRequest.IconSize = 40;
+            this.f2StubtnRequest.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.f2StubtnRequest.Location = new System.Drawing.Point(0, 365);
+            this.f2StubtnRequest.Name = "f2StubtnRequest";
+            this.f2StubtnRequest.Padding = new System.Windows.Forms.Padding(30, 0, 30, 0);
+            this.f2StubtnRequest.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.f2StubtnRequest.Size = new System.Drawing.Size(229, 50);
+            this.f2StubtnRequest.TabIndex = 4;
+            this.f2StubtnRequest.Text = "Requests";
+            this.f2StubtnRequest.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.f2StubtnRequest.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.f2StubtnRequest.UseCompatibleTextRendering = true;
+            this.f2StubtnRequest.UseVisualStyleBackColor = true;
             // 
-            // button3panel
+            // f2StuAcaSubpanel
             // 
-            this.button3panel.Controls.Add(this.iconButton7);
-            this.button3panel.Controls.Add(this.iconButton6);
-            this.button3panel.Controls.Add(this.iconButton5);
-            this.button3panel.Controls.Add(this.iconButton4);
-            this.button3panel.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button3panel.Location = new System.Drawing.Point(0, 150);
-            this.button3panel.Name = "button3panel";
-            this.button3panel.Padding = new System.Windows.Forms.Padding(0, 10, 0, 5);
-            this.button3panel.Size = new System.Drawing.Size(229, 215);
-            this.button3panel.TabIndex = 3;
+            this.f2StuAcaSubpanel.Controls.Add(this.f2StubtnViewcor);
+            this.f2StuAcaSubpanel.Controls.Add(this.f2StubtnCuriculum);
+            this.f2StuAcaSubpanel.Controls.Add(this.f2StubtnClassSched);
+            this.f2StuAcaSubpanel.Controls.Add(this.f2StubtnSubject);
+            this.f2StuAcaSubpanel.Dock = System.Windows.Forms.DockStyle.Top;
+            this.f2StuAcaSubpanel.Location = new System.Drawing.Point(0, 150);
+            this.f2StuAcaSubpanel.Name = "f2StuAcaSubpanel";
+            this.f2StuAcaSubpanel.Padding = new System.Windows.Forms.Padding(0, 10, 0, 5);
+            this.f2StuAcaSubpanel.Size = new System.Drawing.Size(229, 215);
+            this.f2StuAcaSubpanel.TabIndex = 3;
             // 
-            // iconButton7
+            // f2StubtnViewcor
             // 
-            this.iconButton7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.iconButton7.FlatAppearance.BorderSize = 0;
-            this.iconButton7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton7.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.iconButton7.IconChar = FontAwesome.Sharp.IconChar.FileDownload;
-            this.iconButton7.IconColor = System.Drawing.Color.Black;
-            this.iconButton7.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton7.IconSize = 40;
-            this.iconButton7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton7.Location = new System.Drawing.Point(0, 160);
-            this.iconButton7.Name = "iconButton7";
-            this.iconButton7.Padding = new System.Windows.Forms.Padding(40, 0, 30, 0);
-            this.iconButton7.Size = new System.Drawing.Size(229, 50);
-            this.iconButton7.TabIndex = 3;
-            this.iconButton7.Text = "View COR";
-            this.iconButton7.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.iconButton7.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.f2StubtnViewcor.Dock = System.Windows.Forms.DockStyle.Top;
+            this.f2StubtnViewcor.FlatAppearance.BorderSize = 0;
+            this.f2StubtnViewcor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.f2StubtnViewcor.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.f2StubtnViewcor.IconChar = FontAwesome.Sharp.IconChar.FileDownload;
+            this.f2StubtnViewcor.IconColor = System.Drawing.Color.Black;
+            this.f2StubtnViewcor.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.f2StubtnViewcor.IconSize = 40;
+            this.f2StubtnViewcor.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.f2StubtnViewcor.Location = new System.Drawing.Point(0, 160);
+            this.f2StubtnViewcor.Name = "f2StubtnViewcor";
+            this.f2StubtnViewcor.Padding = new System.Windows.Forms.Padding(40, 0, 30, 0);
+            this.f2StubtnViewcor.Size = new System.Drawing.Size(229, 50);
+            this.f2StubtnViewcor.TabIndex = 3;
+            this.f2StubtnViewcor.Text = "View COR";
+            this.f2StubtnViewcor.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.f2StubtnViewcor.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             // 
-            // iconButton6
+            // f2StubtnCuriculum
             // 
-            this.iconButton6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.iconButton6.FlatAppearance.BorderSize = 0;
-            this.iconButton6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton6.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.iconButton6.IconChar = FontAwesome.Sharp.IconChar.BookOpen;
-            this.iconButton6.IconColor = System.Drawing.Color.Black;
-            this.iconButton6.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton6.IconSize = 40;
-            this.iconButton6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton6.Location = new System.Drawing.Point(0, 110);
-            this.iconButton6.Name = "iconButton6";
-            this.iconButton6.Padding = new System.Windows.Forms.Padding(40, 0, 30, 0);
-            this.iconButton6.Size = new System.Drawing.Size(229, 50);
-            this.iconButton6.TabIndex = 2;
-            this.iconButton6.Text = "Curiculum";
-            this.iconButton6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton6.UseCompatibleTextRendering = true;
+            this.f2StubtnCuriculum.Dock = System.Windows.Forms.DockStyle.Top;
+            this.f2StubtnCuriculum.FlatAppearance.BorderSize = 0;
+            this.f2StubtnCuriculum.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.f2StubtnCuriculum.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.f2StubtnCuriculum.IconChar = FontAwesome.Sharp.IconChar.BookOpen;
+            this.f2StubtnCuriculum.IconColor = System.Drawing.Color.Black;
+            this.f2StubtnCuriculum.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.f2StubtnCuriculum.IconSize = 40;
+            this.f2StubtnCuriculum.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.f2StubtnCuriculum.Location = new System.Drawing.Point(0, 110);
+            this.f2StubtnCuriculum.Name = "f2StubtnCuriculum";
+            this.f2StubtnCuriculum.Padding = new System.Windows.Forms.Padding(40, 0, 30, 0);
+            this.f2StubtnCuriculum.Size = new System.Drawing.Size(229, 50);
+            this.f2StubtnCuriculum.TabIndex = 2;
+            this.f2StubtnCuriculum.Text = "Curiculum";
+            this.f2StubtnCuriculum.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.f2StubtnCuriculum.UseCompatibleTextRendering = true;
             // 
-            // iconButton5
+            // f2StubtnClassSched
             // 
-            this.iconButton5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.iconButton5.FlatAppearance.BorderSize = 0;
-            this.iconButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton5.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.iconButton5.IconChar = FontAwesome.Sharp.IconChar.Dna;
-            this.iconButton5.IconColor = System.Drawing.Color.Black;
-            this.iconButton5.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton5.IconSize = 40;
-            this.iconButton5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton5.Location = new System.Drawing.Point(0, 60);
-            this.iconButton5.Name = "iconButton5";
-            this.iconButton5.Padding = new System.Windows.Forms.Padding(40, 0, 30, 0);
-            this.iconButton5.Size = new System.Drawing.Size(229, 50);
-            this.iconButton5.TabIndex = 1;
-            this.iconButton5.Text = "Class Sched";
-            this.iconButton5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.iconButton5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton5.UseCompatibleTextRendering = true;
-            this.iconButton5.UseVisualStyleBackColor = true;
+            this.f2StubtnClassSched.Dock = System.Windows.Forms.DockStyle.Top;
+            this.f2StubtnClassSched.FlatAppearance.BorderSize = 0;
+            this.f2StubtnClassSched.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.f2StubtnClassSched.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.f2StubtnClassSched.IconChar = FontAwesome.Sharp.IconChar.Dna;
+            this.f2StubtnClassSched.IconColor = System.Drawing.Color.Black;
+            this.f2StubtnClassSched.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.f2StubtnClassSched.IconSize = 40;
+            this.f2StubtnClassSched.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.f2StubtnClassSched.Location = new System.Drawing.Point(0, 60);
+            this.f2StubtnClassSched.Name = "f2StubtnClassSched";
+            this.f2StubtnClassSched.Padding = new System.Windows.Forms.Padding(40, 0, 30, 0);
+            this.f2StubtnClassSched.Size = new System.Drawing.Size(229, 50);
+            this.f2StubtnClassSched.TabIndex = 1;
+            this.f2StubtnClassSched.Text = "Class Sched";
+            this.f2StubtnClassSched.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.f2StubtnClassSched.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.f2StubtnClassSched.UseCompatibleTextRendering = true;
+            this.f2StubtnClassSched.UseVisualStyleBackColor = true;
             // 
-            // iconButton4
+            // f2StubtnSubject
             // 
-            this.iconButton4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.iconButton4.FlatAppearance.BorderSize = 0;
-            this.iconButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton4.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.iconButton4.IconChar = FontAwesome.Sharp.IconChar.BookReader;
-            this.iconButton4.IconColor = System.Drawing.Color.Black;
-            this.iconButton4.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton4.IconSize = 40;
-            this.iconButton4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton4.Location = new System.Drawing.Point(0, 10);
-            this.iconButton4.Name = "iconButton4";
-            this.iconButton4.Padding = new System.Windows.Forms.Padding(40, 0, 30, 0);
-            this.iconButton4.Size = new System.Drawing.Size(229, 50);
-            this.iconButton4.TabIndex = 0;
-            this.iconButton4.Text = "Subject";
-            this.iconButton4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.iconButton4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton4.UseCompatibleTextRendering = true;
-            this.iconButton4.UseVisualStyleBackColor = true;
+            this.f2StubtnSubject.Dock = System.Windows.Forms.DockStyle.Top;
+            this.f2StubtnSubject.FlatAppearance.BorderSize = 0;
+            this.f2StubtnSubject.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.f2StubtnSubject.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.f2StubtnSubject.IconChar = FontAwesome.Sharp.IconChar.BookReader;
+            this.f2StubtnSubject.IconColor = System.Drawing.Color.Black;
+            this.f2StubtnSubject.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.f2StubtnSubject.IconSize = 40;
+            this.f2StubtnSubject.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.f2StubtnSubject.Location = new System.Drawing.Point(0, 10);
+            this.f2StubtnSubject.Name = "f2StubtnSubject";
+            this.f2StubtnSubject.Padding = new System.Windows.Forms.Padding(40, 0, 30, 0);
+            this.f2StubtnSubject.Size = new System.Drawing.Size(229, 50);
+            this.f2StubtnSubject.TabIndex = 0;
+            this.f2StubtnSubject.Text = "Subject";
+            this.f2StubtnSubject.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.f2StubtnSubject.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.f2StubtnSubject.UseCompatibleTextRendering = true;
+            this.f2StubtnSubject.UseVisualStyleBackColor = true;
             // 
-            // iconButton3
+            // f2StubtnAcademic
             // 
-            this.iconButton3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.iconButton3.FlatAppearance.BorderSize = 0;
-            this.iconButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton3.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.iconButton3.IconChar = FontAwesome.Sharp.IconChar.School;
-            this.iconButton3.IconColor = System.Drawing.Color.Black;
-            this.iconButton3.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton3.IconSize = 40;
-            this.iconButton3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton3.Location = new System.Drawing.Point(0, 100);
-            this.iconButton3.Name = "iconButton3";
-            this.iconButton3.Padding = new System.Windows.Forms.Padding(30, 0, 30, 0);
-            this.iconButton3.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.iconButton3.Size = new System.Drawing.Size(229, 50);
-            this.iconButton3.TabIndex = 2;
-            this.iconButton3.Text = "Academic";
-            this.iconButton3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.iconButton3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton3.UseCompatibleTextRendering = true;
-            this.iconButton3.UseVisualStyleBackColor = true;
+            this.f2StubtnAcademic.Dock = System.Windows.Forms.DockStyle.Top;
+            this.f2StubtnAcademic.FlatAppearance.BorderSize = 0;
+            this.f2StubtnAcademic.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.f2StubtnAcademic.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.f2StubtnAcademic.IconChar = FontAwesome.Sharp.IconChar.School;
+            this.f2StubtnAcademic.IconColor = System.Drawing.Color.Black;
+            this.f2StubtnAcademic.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.f2StubtnAcademic.IconSize = 40;
+            this.f2StubtnAcademic.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.f2StubtnAcademic.Location = new System.Drawing.Point(0, 100);
+            this.f2StubtnAcademic.Name = "f2StubtnAcademic";
+            this.f2StubtnAcademic.Padding = new System.Windows.Forms.Padding(30, 0, 30, 0);
+            this.f2StubtnAcademic.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.f2StubtnAcademic.Size = new System.Drawing.Size(229, 50);
+            this.f2StubtnAcademic.TabIndex = 2;
+            this.f2StubtnAcademic.Text = "Academic";
+            this.f2StubtnAcademic.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.f2StubtnAcademic.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.f2StubtnAcademic.UseCompatibleTextRendering = true;
+            this.f2StubtnAcademic.UseVisualStyleBackColor = true;
             // 
-            // iconButton2
+            // f2StubtnInstructor
             // 
-            this.iconButton2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.iconButton2.FlatAppearance.BorderSize = 0;
-            this.iconButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton2.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.iconButton2.IconChar = FontAwesome.Sharp.IconChar.User;
-            this.iconButton2.IconColor = System.Drawing.Color.Black;
-            this.iconButton2.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton2.IconSize = 40;
-            this.iconButton2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton2.Location = new System.Drawing.Point(0, 50);
-            this.iconButton2.Name = "iconButton2";
-            this.iconButton2.Padding = new System.Windows.Forms.Padding(30, 0, 30, 0);
-            this.iconButton2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.iconButton2.Size = new System.Drawing.Size(229, 50);
-            this.iconButton2.TabIndex = 1;
-            this.iconButton2.Text = "Instructor   ";
-            this.iconButton2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.iconButton2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton2.UseCompatibleTextRendering = true;
-            this.iconButton2.UseVisualStyleBackColor = true;
+            this.f2StubtnInstructor.Dock = System.Windows.Forms.DockStyle.Top;
+            this.f2StubtnInstructor.FlatAppearance.BorderSize = 0;
+            this.f2StubtnInstructor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.f2StubtnInstructor.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.f2StubtnInstructor.IconChar = FontAwesome.Sharp.IconChar.User;
+            this.f2StubtnInstructor.IconColor = System.Drawing.Color.Black;
+            this.f2StubtnInstructor.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.f2StubtnInstructor.IconSize = 40;
+            this.f2StubtnInstructor.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.f2StubtnInstructor.Location = new System.Drawing.Point(0, 50);
+            this.f2StubtnInstructor.Name = "f2StubtnInstructor";
+            this.f2StubtnInstructor.Padding = new System.Windows.Forms.Padding(30, 0, 30, 0);
+            this.f2StubtnInstructor.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.f2StubtnInstructor.Size = new System.Drawing.Size(229, 50);
+            this.f2StubtnInstructor.TabIndex = 1;
+            this.f2StubtnInstructor.Text = "Instructor   ";
+            this.f2StubtnInstructor.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.f2StubtnInstructor.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.f2StubtnInstructor.UseCompatibleTextRendering = true;
+            this.f2StubtnInstructor.UseVisualStyleBackColor = true;
             // 
-            // iconButton1
+            // f2StubtnDashboard
             // 
-            this.iconButton1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.iconButton1.FlatAppearance.BorderSize = 0;
-            this.iconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton1.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.AddressCard;
-            this.iconButton1.IconColor = System.Drawing.Color.Black;
-            this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton1.IconSize = 40;
-            this.iconButton1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton1.Location = new System.Drawing.Point(0, 0);
-            this.iconButton1.Name = "iconButton1";
-            this.iconButton1.Padding = new System.Windows.Forms.Padding(30, 0, 30, 0);
-            this.iconButton1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.iconButton1.Size = new System.Drawing.Size(229, 50);
-            this.iconButton1.TabIndex = 0;
-            this.iconButton1.Text = "Dashboard";
-            this.iconButton1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.iconButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton1.UseCompatibleTextRendering = true;
-            this.iconButton1.UseVisualStyleBackColor = true;
-            this.iconButton1.Click += new System.EventHandler(this.iconButton1_Click);
+            this.f2StubtnDashboard.Dock = System.Windows.Forms.DockStyle.Top;
+            this.f2StubtnDashboard.FlatAppearance.BorderSize = 0;
+            this.f2StubtnDashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.f2StubtnDashboard.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.f2StubtnDashboard.IconChar = FontAwesome.Sharp.IconChar.AddressCard;
+            this.f2StubtnDashboard.IconColor = System.Drawing.Color.Black;
+            this.f2StubtnDashboard.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.f2StubtnDashboard.IconSize = 40;
+            this.f2StubtnDashboard.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.f2StubtnDashboard.Location = new System.Drawing.Point(0, 0);
+            this.f2StubtnDashboard.Name = "f2StubtnDashboard";
+            this.f2StubtnDashboard.Padding = new System.Windows.Forms.Padding(30, 0, 30, 0);
+            this.f2StubtnDashboard.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.f2StubtnDashboard.Size = new System.Drawing.Size(229, 50);
+            this.f2StubtnDashboard.TabIndex = 0;
+            this.f2StubtnDashboard.Text = "Dashboard";
+            this.f2StubtnDashboard.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.f2StubtnDashboard.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.f2StubtnDashboard.UseCompatibleTextRendering = true;
+            this.f2StubtnDashboard.UseVisualStyleBackColor = true;
             // 
             // f2StuLandingPanel
             // 
@@ -634,10 +633,10 @@
             this.panel2.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
-            this.panel5.ResumeLayout(false);
-            this.panel4.ResumeLayout(false);
-            this.panel3.ResumeLayout(false);
-            this.button3panel.ResumeLayout(false);
+            this.f2StuLibSubpanel.ResumeLayout(false);
+            this.f2StuExaSubpanel.ResumeLayout(false);
+            this.f2StuReqSubpanel.ResumeLayout(false);
+            this.f2StuAcaSubpanel.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -646,32 +645,32 @@
 
         private Panel panel1;
         private Panel panel2;
-        private FontAwesome.Sharp.IconButton iconButton2;
-        private FontAwesome.Sharp.IconButton iconButton1;
+        private FontAwesome.Sharp.IconButton f2StubtnInstructor;
+        private FontAwesome.Sharp.IconButton f2StubtnDashboard;
         private Panel f2StuLandingPanel;
-        private FontAwesome.Sharp.IconButton iconButton3;
-        private Panel button3panel;
-        private FontAwesome.Sharp.IconButton iconButton7;
-        private FontAwesome.Sharp.IconButton iconButton6;
-        private FontAwesome.Sharp.IconButton iconButton5;
-        private FontAwesome.Sharp.IconButton iconButton4;
-        private FontAwesome.Sharp.IconButton iconButton21;
-        private FontAwesome.Sharp.IconButton iconButton8;
+        private FontAwesome.Sharp.IconButton f2StubtnAcademic;
+        private Panel f2StuAcaSubpanel;
+        private FontAwesome.Sharp.IconButton f2StubtnViewcor;
+        private FontAwesome.Sharp.IconButton f2StubtnCuriculum;
+        private FontAwesome.Sharp.IconButton f2StubtnClassSched;
+        private FontAwesome.Sharp.IconButton f2StubtnSubject;
+        private FontAwesome.Sharp.IconButton btnLogout;
+        private FontAwesome.Sharp.IconButton f2StubtnRequest;
         private Panel panel6;
         private Label label1;
-        private FontAwesome.Sharp.IconButton iconButton19;
-        private FontAwesome.Sharp.IconButton iconButton18;
-        private Panel panel5;
-        private FontAwesome.Sharp.IconButton iconButton16;
-        private FontAwesome.Sharp.IconButton iconButton17;
-        private FontAwesome.Sharp.IconButton iconButton15;
-        private FontAwesome.Sharp.IconButton iconButton14;
-        private Panel panel4;
+        private FontAwesome.Sharp.IconButton f2StubtnSchoolfees;
+        private FontAwesome.Sharp.IconButton f2StubtnEvents;
+        private Panel f2StuLibSubpanel;
+        private FontAwesome.Sharp.IconButton f2StubtnReturnbook;
+        private FontAwesome.Sharp.IconButton f2StubtnFindbook;
+        private FontAwesome.Sharp.IconButton f2StubtnLibrary;
+        private FontAwesome.Sharp.IconButton f2StubtnAttendance;
+        private Panel f2StuExaSubpanel;
         private FontAwesome.Sharp.IconButton iconButton10;
         private FontAwesome.Sharp.IconButton iconButton13;
-        private FontAwesome.Sharp.IconButton iconButton9;
-        private Panel panel3;
-        private FontAwesome.Sharp.IconButton iconButton11;
-        private FontAwesome.Sharp.IconButton iconButton12;
+        private FontAwesome.Sharp.IconButton f2StubtnExamMaster;
+        private Panel f2StuReqSubpanel;
+        private FontAwesome.Sharp.IconButton f2StubtnShiftreq;
+        private FontAwesome.Sharp.IconButton f2StubtnLeavereq;
     }
 }

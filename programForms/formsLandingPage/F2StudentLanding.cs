@@ -32,15 +32,20 @@ namespace StudentManagementSystem.programForms.formsLandingPage
             MainForm1.BringToFront();
             MainForm1.Show();
         }
-        private void iconButton21_Click(object sender, EventArgs e)
+
+        
+
+        private void btnLogout_Click(object sender, EventArgs e)
         {
             this.Close();
         }
+
 
         private void iconButton1_Click(object sender, EventArgs e)
         {
             openMainForm1Panel(new f2StuDashboard());
         }
+
 
     }
 }
