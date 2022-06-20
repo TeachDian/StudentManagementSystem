@@ -16,6 +16,7 @@
     <Folder Include="programResouces\resourcesBackground\" />
     <Folder Include="programResouces\resourcesPictures\" />
     <Folder Include="programResouces\resourcesLogos\" />
+    <Folder Include="programSystemClasses\systemMiscClass\" />
   </ItemGroup>
 
   <ItemGroup>

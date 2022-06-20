@@ -29,7 +29,9 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
             this.btnLogout = new FontAwesome.Sharp.IconButton();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
@@ -41,8 +43,8 @@
             this.f2StubtnLibrary = new FontAwesome.Sharp.IconButton();
             this.f2StubtnAttendance = new FontAwesome.Sharp.IconButton();
             this.f2StuExaSubpanel = new System.Windows.Forms.Panel();
-            this.iconButton10 = new FontAwesome.Sharp.IconButton();
-            this.iconButton13 = new FontAwesome.Sharp.IconButton();
+            this.f2StubtnReportcard = new FontAwesome.Sharp.IconButton();
+            this.f2StubtnExamsched = new FontAwesome.Sharp.IconButton();
             this.f2StubtnExamMaster = new FontAwesome.Sharp.IconButton();
             this.f2StuReqSubpanel = new System.Windows.Forms.Panel();
             this.f2StubtnShiftreq = new FontAwesome.Sharp.IconButton();
@@ -58,6 +60,7 @@
             this.f2StubtnDashboard = new FontAwesome.Sharp.IconButton();
             this.f2StuLandingPanel = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
+            this.panel4.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel6.SuspendLayout();
             this.f2StuLibSubpanel.SuspendLayout();
@@ -68,33 +71,51 @@
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.btnLogout);
+            this.panel1.Controls.Add(this.panel4);
+            this.panel1.Controls.Add(this.panel3);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(0);
             this.panel1.Name = "panel1";
-            this.panel1.Padding = new System.Windows.Forms.Padding(0, 5, 0, 5);
-            this.panel1.Size = new System.Drawing.Size(1180, 110);
+            this.panel1.Size = new System.Drawing.Size(1180, 100);
             this.panel1.TabIndex = 0;
+            // 
+            // panel4
+            // 
+            this.panel4.Controls.Add(this.btnLogout);
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel4.Location = new System.Drawing.Point(960, 0);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(220, 100);
+            this.panel4.TabIndex = 3;
             // 
             // btnLogout
             // 
-            this.btnLogout.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnLogout.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnLogout.FlatAppearance.BorderSize = 0;
             this.btnLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLogout.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnLogout.IconChar = FontAwesome.Sharp.IconChar.UserLock;
             this.btnLogout.IconColor = System.Drawing.Color.Black;
             this.btnLogout.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnLogout.Location = new System.Drawing.Point(971, 0);
+            this.btnLogout.Location = new System.Drawing.Point(0, 0);
             this.btnLogout.Name = "btnLogout";
             this.btnLogout.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnLogout.Size = new System.Drawing.Size(209, 50);
+            this.btnLogout.Size = new System.Drawing.Size(220, 50);
             this.btnLogout.TabIndex = 1;
             this.btnLogout.Text = "Logout";
             this.btnLogout.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnLogout.UseVisualStyleBackColor = true;
             this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
+            // 
+            // panel3
+            // 
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Margin = new System.Windows.Forms.Padding(0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(260, 100);
+            this.panel3.TabIndex = 2;
             // 
             // panel2
             // 
@@ -114,19 +135,19 @@
             this.panel2.Controls.Add(this.f2StubtnInstructor);
             this.panel2.Controls.Add(this.f2StubtnDashboard);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel2.Location = new System.Drawing.Point(0, 110);
+            this.panel2.Location = new System.Drawing.Point(0, 100);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(250, 670);
+            this.panel2.Size = new System.Drawing.Size(260, 680);
             this.panel2.TabIndex = 1;
             // 
             // panel6
             // 
             this.panel6.Controls.Add(this.label1);
-            this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel6.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel6.Location = new System.Drawing.Point(0, 1010);
             this.panel6.Name = "panel6";
             this.panel6.Padding = new System.Windows.Forms.Padding(0, 10, 0, 5);
-            this.panel6.Size = new System.Drawing.Size(229, 115);
+            this.panel6.Size = new System.Drawing.Size(239, 115);
             this.panel6.TabIndex = 13;
             // 
             // label1
@@ -155,13 +176,14 @@
             this.f2StubtnSchoolfees.Name = "f2StubtnSchoolfees";
             this.f2StubtnSchoolfees.Padding = new System.Windows.Forms.Padding(30, 0, 30, 0);
             this.f2StubtnSchoolfees.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.f2StubtnSchoolfees.Size = new System.Drawing.Size(229, 50);
+            this.f2StubtnSchoolfees.Size = new System.Drawing.Size(239, 50);
             this.f2StubtnSchoolfees.TabIndex = 12;
             this.f2StubtnSchoolfees.Text = "School Fees";
             this.f2StubtnSchoolfees.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.f2StubtnSchoolfees.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.f2StubtnSchoolfees.UseCompatibleTextRendering = true;
             this.f2StubtnSchoolfees.UseVisualStyleBackColor = true;
+            this.f2StubtnSchoolfees.Click += new System.EventHandler(this.f2StubtnSchoolfees_Click);
             // 
             // f2StubtnEvents
             // 
@@ -178,13 +200,14 @@
             this.f2StubtnEvents.Name = "f2StubtnEvents";
             this.f2StubtnEvents.Padding = new System.Windows.Forms.Padding(30, 0, 30, 0);
             this.f2StubtnEvents.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.f2StubtnEvents.Size = new System.Drawing.Size(229, 50);
+            this.f2StubtnEvents.Size = new System.Drawing.Size(239, 50);
             this.f2StubtnEvents.TabIndex = 11;
             this.f2StubtnEvents.Text = "Events";
             this.f2StubtnEvents.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.f2StubtnEvents.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.f2StubtnEvents.UseCompatibleTextRendering = true;
             this.f2StubtnEvents.UseVisualStyleBackColor = true;
+            this.f2StubtnEvents.Click += new System.EventHandler(this.f2StubtnEvents_Click);
             // 
             // f2StuLibSubpanel
             // 
@@ -194,7 +217,7 @@
             this.f2StuLibSubpanel.Location = new System.Drawing.Point(0, 795);
             this.f2StuLibSubpanel.Name = "f2StuLibSubpanel";
             this.f2StuLibSubpanel.Padding = new System.Windows.Forms.Padding(0, 10, 0, 5);
-            this.f2StuLibSubpanel.Size = new System.Drawing.Size(229, 115);
+            this.f2StuLibSubpanel.Size = new System.Drawing.Size(239, 115);
             this.f2StuLibSubpanel.TabIndex = 10;
             // 
             // f2StubtnReturnbook
@@ -211,13 +234,14 @@
             this.f2StubtnReturnbook.Location = new System.Drawing.Point(0, 60);
             this.f2StubtnReturnbook.Name = "f2StubtnReturnbook";
             this.f2StubtnReturnbook.Padding = new System.Windows.Forms.Padding(40, 0, 30, 0);
-            this.f2StubtnReturnbook.Size = new System.Drawing.Size(229, 50);
+            this.f2StubtnReturnbook.Size = new System.Drawing.Size(239, 50);
             this.f2StubtnReturnbook.TabIndex = 1;
             this.f2StubtnReturnbook.Text = "Return Book";
             this.f2StubtnReturnbook.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.f2StubtnReturnbook.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.f2StubtnReturnbook.UseCompatibleTextRendering = true;
             this.f2StubtnReturnbook.UseVisualStyleBackColor = true;
+            this.f2StubtnReturnbook.Click += new System.EventHandler(this.f2StubtnReturnbook_Click);
             // 
             // f2StubtnFindbook
             // 
@@ -233,13 +257,14 @@
             this.f2StubtnFindbook.Location = new System.Drawing.Point(0, 10);
             this.f2StubtnFindbook.Name = "f2StubtnFindbook";
             this.f2StubtnFindbook.Padding = new System.Windows.Forms.Padding(40, 0, 30, 0);
-            this.f2StubtnFindbook.Size = new System.Drawing.Size(229, 50);
+            this.f2StubtnFindbook.Size = new System.Drawing.Size(239, 50);
             this.f2StubtnFindbook.TabIndex = 0;
             this.f2StubtnFindbook.Text = "Find Book";
             this.f2StubtnFindbook.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.f2StubtnFindbook.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.f2StubtnFindbook.UseCompatibleTextRendering = true;
             this.f2StubtnFindbook.UseVisualStyleBackColor = true;
+            this.f2StubtnFindbook.Click += new System.EventHandler(this.f2StubtnFindbook_Click);
             // 
             // f2StubtnLibrary
             // 
@@ -256,13 +281,14 @@
             this.f2StubtnLibrary.Name = "f2StubtnLibrary";
             this.f2StubtnLibrary.Padding = new System.Windows.Forms.Padding(30, 0, 30, 0);
             this.f2StubtnLibrary.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.f2StubtnLibrary.Size = new System.Drawing.Size(229, 50);
+            this.f2StubtnLibrary.Size = new System.Drawing.Size(239, 50);
             this.f2StubtnLibrary.TabIndex = 9;
-            this.f2StubtnLibrary.Text = "Library";
+            this.f2StubtnLibrary.Text = "Library +";
             this.f2StubtnLibrary.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.f2StubtnLibrary.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.f2StubtnLibrary.UseCompatibleTextRendering = true;
             this.f2StubtnLibrary.UseVisualStyleBackColor = true;
+            this.f2StubtnLibrary.Click += new System.EventHandler(this.f2StubtnLibrary_Click);
             // 
             // f2StubtnAttendance
             // 
@@ -279,68 +305,71 @@
             this.f2StubtnAttendance.Name = "f2StubtnAttendance";
             this.f2StubtnAttendance.Padding = new System.Windows.Forms.Padding(30, 0, 30, 0);
             this.f2StubtnAttendance.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.f2StubtnAttendance.Size = new System.Drawing.Size(229, 50);
+            this.f2StubtnAttendance.Size = new System.Drawing.Size(239, 50);
             this.f2StubtnAttendance.TabIndex = 8;
             this.f2StubtnAttendance.Text = "Attendance";
             this.f2StubtnAttendance.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.f2StubtnAttendance.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.f2StubtnAttendance.UseCompatibleTextRendering = true;
             this.f2StubtnAttendance.UseVisualStyleBackColor = true;
+            this.f2StubtnAttendance.Click += new System.EventHandler(this.f2StubtnAttendance_Click);
             // 
             // f2StuExaSubpanel
             // 
-            this.f2StuExaSubpanel.Controls.Add(this.iconButton10);
-            this.f2StuExaSubpanel.Controls.Add(this.iconButton13);
+            this.f2StuExaSubpanel.Controls.Add(this.f2StubtnReportcard);
+            this.f2StuExaSubpanel.Controls.Add(this.f2StubtnExamsched);
             this.f2StuExaSubpanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.f2StuExaSubpanel.Location = new System.Drawing.Point(0, 580);
             this.f2StuExaSubpanel.Name = "f2StuExaSubpanel";
             this.f2StuExaSubpanel.Padding = new System.Windows.Forms.Padding(0, 10, 0, 5);
-            this.f2StuExaSubpanel.Size = new System.Drawing.Size(229, 115);
+            this.f2StuExaSubpanel.Size = new System.Drawing.Size(239, 115);
             this.f2StuExaSubpanel.TabIndex = 7;
             // 
-            // iconButton10
+            // f2StubtnReportcard
             // 
-            this.iconButton10.Dock = System.Windows.Forms.DockStyle.Top;
-            this.iconButton10.FlatAppearance.BorderSize = 0;
-            this.iconButton10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton10.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.iconButton10.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.iconButton10.IconColor = System.Drawing.Color.Black;
-            this.iconButton10.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton10.IconSize = 40;
-            this.iconButton10.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton10.Location = new System.Drawing.Point(0, 60);
-            this.iconButton10.Name = "iconButton10";
-            this.iconButton10.Padding = new System.Windows.Forms.Padding(40, 0, 30, 0);
-            this.iconButton10.Size = new System.Drawing.Size(229, 50);
-            this.iconButton10.TabIndex = 1;
-            this.iconButton10.Text = "====";
-            this.iconButton10.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.iconButton10.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton10.UseCompatibleTextRendering = true;
-            this.iconButton10.UseVisualStyleBackColor = true;
+            this.f2StubtnReportcard.Dock = System.Windows.Forms.DockStyle.Top;
+            this.f2StubtnReportcard.FlatAppearance.BorderSize = 0;
+            this.f2StubtnReportcard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.f2StubtnReportcard.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.f2StubtnReportcard.IconChar = FontAwesome.Sharp.IconChar.Pen;
+            this.f2StubtnReportcard.IconColor = System.Drawing.Color.Black;
+            this.f2StubtnReportcard.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.f2StubtnReportcard.IconSize = 40;
+            this.f2StubtnReportcard.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.f2StubtnReportcard.Location = new System.Drawing.Point(0, 60);
+            this.f2StubtnReportcard.Name = "f2StubtnReportcard";
+            this.f2StubtnReportcard.Padding = new System.Windows.Forms.Padding(40, 0, 30, 0);
+            this.f2StubtnReportcard.Size = new System.Drawing.Size(239, 50);
+            this.f2StubtnReportcard.TabIndex = 1;
+            this.f2StubtnReportcard.Text = "Report Card";
+            this.f2StubtnReportcard.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.f2StubtnReportcard.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.f2StubtnReportcard.UseCompatibleTextRendering = true;
+            this.f2StubtnReportcard.UseVisualStyleBackColor = true;
+            this.f2StubtnReportcard.Click += new System.EventHandler(this.f2StubtnReportcard_Click);
             // 
-            // iconButton13
+            // f2StubtnExamsched
             // 
-            this.iconButton13.Dock = System.Windows.Forms.DockStyle.Top;
-            this.iconButton13.FlatAppearance.BorderSize = 0;
-            this.iconButton13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton13.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.iconButton13.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.iconButton13.IconColor = System.Drawing.Color.Black;
-            this.iconButton13.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton13.IconSize = 40;
-            this.iconButton13.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton13.Location = new System.Drawing.Point(0, 10);
-            this.iconButton13.Name = "iconButton13";
-            this.iconButton13.Padding = new System.Windows.Forms.Padding(40, 0, 30, 0);
-            this.iconButton13.Size = new System.Drawing.Size(229, 50);
-            this.iconButton13.TabIndex = 0;
-            this.iconButton13.Text = "====";
-            this.iconButton13.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.iconButton13.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton13.UseCompatibleTextRendering = true;
-            this.iconButton13.UseVisualStyleBackColor = true;
+            this.f2StubtnExamsched.Dock = System.Windows.Forms.DockStyle.Top;
+            this.f2StubtnExamsched.FlatAppearance.BorderSize = 0;
+            this.f2StubtnExamsched.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.f2StubtnExamsched.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.f2StubtnExamsched.IconChar = FontAwesome.Sharp.IconChar.Dna;
+            this.f2StubtnExamsched.IconColor = System.Drawing.Color.Black;
+            this.f2StubtnExamsched.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.f2StubtnExamsched.IconSize = 40;
+            this.f2StubtnExamsched.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.f2StubtnExamsched.Location = new System.Drawing.Point(0, 10);
+            this.f2StubtnExamsched.Name = "f2StubtnExamsched";
+            this.f2StubtnExamsched.Padding = new System.Windows.Forms.Padding(40, 0, 30, 0);
+            this.f2StubtnExamsched.Size = new System.Drawing.Size(239, 50);
+            this.f2StubtnExamsched.TabIndex = 0;
+            this.f2StubtnExamsched.Text = "Exam Sched";
+            this.f2StubtnExamsched.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.f2StubtnExamsched.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.f2StubtnExamsched.UseCompatibleTextRendering = true;
+            this.f2StubtnExamsched.UseVisualStyleBackColor = true;
+            this.f2StubtnExamsched.Click += new System.EventHandler(this.f2StubtnExamsched_Click);
             // 
             // f2StubtnExamMaster
             // 
@@ -357,13 +386,14 @@
             this.f2StubtnExamMaster.Name = "f2StubtnExamMaster";
             this.f2StubtnExamMaster.Padding = new System.Windows.Forms.Padding(30, 0, 30, 0);
             this.f2StubtnExamMaster.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.f2StubtnExamMaster.Size = new System.Drawing.Size(229, 50);
+            this.f2StubtnExamMaster.Size = new System.Drawing.Size(239, 50);
             this.f2StubtnExamMaster.TabIndex = 6;
-            this.f2StubtnExamMaster.Text = "Exam Master";
+            this.f2StubtnExamMaster.Text = "Exam Master +";
             this.f2StubtnExamMaster.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.f2StubtnExamMaster.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.f2StubtnExamMaster.UseCompatibleTextRendering = true;
             this.f2StubtnExamMaster.UseVisualStyleBackColor = true;
+            this.f2StubtnExamMaster.Click += new System.EventHandler(this.f2StubtnExamMaster_Click);
             // 
             // f2StuReqSubpanel
             // 
@@ -373,7 +403,7 @@
             this.f2StuReqSubpanel.Location = new System.Drawing.Point(0, 415);
             this.f2StuReqSubpanel.Name = "f2StuReqSubpanel";
             this.f2StuReqSubpanel.Padding = new System.Windows.Forms.Padding(0, 10, 0, 5);
-            this.f2StuReqSubpanel.Size = new System.Drawing.Size(229, 115);
+            this.f2StuReqSubpanel.Size = new System.Drawing.Size(239, 115);
             this.f2StuReqSubpanel.TabIndex = 5;
             // 
             // f2StubtnShiftreq
@@ -390,12 +420,13 @@
             this.f2StubtnShiftreq.Location = new System.Drawing.Point(0, 60);
             this.f2StubtnShiftreq.Name = "f2StubtnShiftreq";
             this.f2StubtnShiftreq.Padding = new System.Windows.Forms.Padding(40, 0, 30, 0);
-            this.f2StubtnShiftreq.Size = new System.Drawing.Size(229, 50);
+            this.f2StubtnShiftreq.Size = new System.Drawing.Size(239, 50);
             this.f2StubtnShiftreq.TabIndex = 1;
             this.f2StubtnShiftreq.Text = "Shift Request";
             this.f2StubtnShiftreq.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.f2StubtnShiftreq.UseCompatibleTextRendering = true;
             this.f2StubtnShiftreq.UseVisualStyleBackColor = true;
+            this.f2StubtnShiftreq.Click += new System.EventHandler(this.f2StubtnShiftreq_Click);
             // 
             // f2StubtnLeavereq
             // 
@@ -411,12 +442,13 @@
             this.f2StubtnLeavereq.Location = new System.Drawing.Point(0, 10);
             this.f2StubtnLeavereq.Name = "f2StubtnLeavereq";
             this.f2StubtnLeavereq.Padding = new System.Windows.Forms.Padding(40, 0, 30, 0);
-            this.f2StubtnLeavereq.Size = new System.Drawing.Size(229, 50);
+            this.f2StubtnLeavereq.Size = new System.Drawing.Size(239, 50);
             this.f2StubtnLeavereq.TabIndex = 0;
             this.f2StubtnLeavereq.Text = "Leave Request";
             this.f2StubtnLeavereq.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.f2StubtnLeavereq.UseCompatibleTextRendering = true;
             this.f2StubtnLeavereq.UseVisualStyleBackColor = true;
+            this.f2StubtnLeavereq.Click += new System.EventHandler(this.f2StubtnLeavereq_Click);
             // 
             // f2StubtnRequest
             // 
@@ -433,13 +465,14 @@
             this.f2StubtnRequest.Name = "f2StubtnRequest";
             this.f2StubtnRequest.Padding = new System.Windows.Forms.Padding(30, 0, 30, 0);
             this.f2StubtnRequest.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.f2StubtnRequest.Size = new System.Drawing.Size(229, 50);
+            this.f2StubtnRequest.Size = new System.Drawing.Size(239, 50);
             this.f2StubtnRequest.TabIndex = 4;
-            this.f2StubtnRequest.Text = "Requests";
+            this.f2StubtnRequest.Text = "Requests +";
             this.f2StubtnRequest.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.f2StubtnRequest.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.f2StubtnRequest.UseCompatibleTextRendering = true;
             this.f2StubtnRequest.UseVisualStyleBackColor = true;
+            this.f2StubtnRequest.Click += new System.EventHandler(this.f2StubtnRequest_Click);
             // 
             // f2StuAcaSubpanel
             // 
@@ -451,7 +484,7 @@
             this.f2StuAcaSubpanel.Location = new System.Drawing.Point(0, 150);
             this.f2StuAcaSubpanel.Name = "f2StuAcaSubpanel";
             this.f2StuAcaSubpanel.Padding = new System.Windows.Forms.Padding(0, 10, 0, 5);
-            this.f2StuAcaSubpanel.Size = new System.Drawing.Size(229, 215);
+            this.f2StuAcaSubpanel.Size = new System.Drawing.Size(239, 215);
             this.f2StuAcaSubpanel.TabIndex = 3;
             // 
             // f2StubtnViewcor
@@ -468,11 +501,12 @@
             this.f2StubtnViewcor.Location = new System.Drawing.Point(0, 160);
             this.f2StubtnViewcor.Name = "f2StubtnViewcor";
             this.f2StubtnViewcor.Padding = new System.Windows.Forms.Padding(40, 0, 30, 0);
-            this.f2StubtnViewcor.Size = new System.Drawing.Size(229, 50);
+            this.f2StubtnViewcor.Size = new System.Drawing.Size(239, 50);
             this.f2StubtnViewcor.TabIndex = 3;
             this.f2StubtnViewcor.Text = "View COR";
             this.f2StubtnViewcor.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.f2StubtnViewcor.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.f2StubtnViewcor.Click += new System.EventHandler(this.f2StubtnViewcor_Click);
             // 
             // f2StubtnCuriculum
             // 
@@ -488,11 +522,12 @@
             this.f2StubtnCuriculum.Location = new System.Drawing.Point(0, 110);
             this.f2StubtnCuriculum.Name = "f2StubtnCuriculum";
             this.f2StubtnCuriculum.Padding = new System.Windows.Forms.Padding(40, 0, 30, 0);
-            this.f2StubtnCuriculum.Size = new System.Drawing.Size(229, 50);
+            this.f2StubtnCuriculum.Size = new System.Drawing.Size(239, 50);
             this.f2StubtnCuriculum.TabIndex = 2;
             this.f2StubtnCuriculum.Text = "Curiculum";
             this.f2StubtnCuriculum.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.f2StubtnCuriculum.UseCompatibleTextRendering = true;
+            this.f2StubtnCuriculum.Click += new System.EventHandler(this.f2StubtnCuriculum_Click);
             // 
             // f2StubtnClassSched
             // 
@@ -508,13 +543,14 @@
             this.f2StubtnClassSched.Location = new System.Drawing.Point(0, 60);
             this.f2StubtnClassSched.Name = "f2StubtnClassSched";
             this.f2StubtnClassSched.Padding = new System.Windows.Forms.Padding(40, 0, 30, 0);
-            this.f2StubtnClassSched.Size = new System.Drawing.Size(229, 50);
+            this.f2StubtnClassSched.Size = new System.Drawing.Size(239, 50);
             this.f2StubtnClassSched.TabIndex = 1;
             this.f2StubtnClassSched.Text = "Class Sched";
             this.f2StubtnClassSched.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.f2StubtnClassSched.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.f2StubtnClassSched.UseCompatibleTextRendering = true;
             this.f2StubtnClassSched.UseVisualStyleBackColor = true;
+            this.f2StubtnClassSched.Click += new System.EventHandler(this.f2StubtnClassSched_Click);
             // 
             // f2StubtnSubject
             // 
@@ -530,13 +566,14 @@
             this.f2StubtnSubject.Location = new System.Drawing.Point(0, 10);
             this.f2StubtnSubject.Name = "f2StubtnSubject";
             this.f2StubtnSubject.Padding = new System.Windows.Forms.Padding(40, 0, 30, 0);
-            this.f2StubtnSubject.Size = new System.Drawing.Size(229, 50);
+            this.f2StubtnSubject.Size = new System.Drawing.Size(239, 50);
             this.f2StubtnSubject.TabIndex = 0;
             this.f2StubtnSubject.Text = "Subject";
             this.f2StubtnSubject.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.f2StubtnSubject.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.f2StubtnSubject.UseCompatibleTextRendering = true;
             this.f2StubtnSubject.UseVisualStyleBackColor = true;
+            this.f2StubtnSubject.Click += new System.EventHandler(this.f2StubtnSubject_Click);
             // 
             // f2StubtnAcademic
             // 
@@ -553,13 +590,14 @@
             this.f2StubtnAcademic.Name = "f2StubtnAcademic";
             this.f2StubtnAcademic.Padding = new System.Windows.Forms.Padding(30, 0, 30, 0);
             this.f2StubtnAcademic.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.f2StubtnAcademic.Size = new System.Drawing.Size(229, 50);
+            this.f2StubtnAcademic.Size = new System.Drawing.Size(239, 50);
             this.f2StubtnAcademic.TabIndex = 2;
-            this.f2StubtnAcademic.Text = "Academic";
+            this.f2StubtnAcademic.Text = "Academic +";
             this.f2StubtnAcademic.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.f2StubtnAcademic.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.f2StubtnAcademic.UseCompatibleTextRendering = true;
             this.f2StubtnAcademic.UseVisualStyleBackColor = true;
+            this.f2StubtnAcademic.Click += new System.EventHandler(this.f2StubtnAcademic_Click);
             // 
             // f2StubtnInstructor
             // 
@@ -576,13 +614,14 @@
             this.f2StubtnInstructor.Name = "f2StubtnInstructor";
             this.f2StubtnInstructor.Padding = new System.Windows.Forms.Padding(30, 0, 30, 0);
             this.f2StubtnInstructor.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.f2StubtnInstructor.Size = new System.Drawing.Size(229, 50);
+            this.f2StubtnInstructor.Size = new System.Drawing.Size(239, 50);
             this.f2StubtnInstructor.TabIndex = 1;
             this.f2StubtnInstructor.Text = "Instructor   ";
             this.f2StubtnInstructor.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.f2StubtnInstructor.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.f2StubtnInstructor.UseCompatibleTextRendering = true;
             this.f2StubtnInstructor.UseVisualStyleBackColor = true;
+            this.f2StubtnInstructor.Click += new System.EventHandler(this.f2StubtnInstructor_Click);
             // 
             // f2StubtnDashboard
             // 
@@ -599,22 +638,23 @@
             this.f2StubtnDashboard.Name = "f2StubtnDashboard";
             this.f2StubtnDashboard.Padding = new System.Windows.Forms.Padding(30, 0, 30, 0);
             this.f2StubtnDashboard.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.f2StubtnDashboard.Size = new System.Drawing.Size(229, 50);
+            this.f2StubtnDashboard.Size = new System.Drawing.Size(239, 50);
             this.f2StubtnDashboard.TabIndex = 0;
             this.f2StubtnDashboard.Text = "Dashboard";
             this.f2StubtnDashboard.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.f2StubtnDashboard.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.f2StubtnDashboard.UseCompatibleTextRendering = true;
             this.f2StubtnDashboard.UseVisualStyleBackColor = true;
+            this.f2StubtnDashboard.Click += new System.EventHandler(this.f2StubtnDashboard_Click);
             // 
             // f2StuLandingPanel
             // 
             this.f2StuLandingPanel.AutoScroll = true;
             this.f2StuLandingPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.f2StuLandingPanel.Location = new System.Drawing.Point(250, 110);
+            this.f2StuLandingPanel.Location = new System.Drawing.Point(260, 100);
             this.f2StuLandingPanel.Margin = new System.Windows.Forms.Padding(0);
             this.f2StuLandingPanel.Name = "f2StuLandingPanel";
-            this.f2StuLandingPanel.Size = new System.Drawing.Size(930, 670);
+            this.f2StuLandingPanel.Size = new System.Drawing.Size(920, 680);
             this.f2StuLandingPanel.TabIndex = 2;
             // 
             // F2StudentLanding
@@ -630,6 +670,7 @@
             this.Name = "F2StudentLanding";
             this.Text = "F2StudentLanding";
             this.panel1.ResumeLayout(false);
+            this.panel4.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
@@ -666,11 +707,13 @@
         private FontAwesome.Sharp.IconButton f2StubtnLibrary;
         private FontAwesome.Sharp.IconButton f2StubtnAttendance;
         private Panel f2StuExaSubpanel;
-        private FontAwesome.Sharp.IconButton iconButton10;
-        private FontAwesome.Sharp.IconButton iconButton13;
+        private FontAwesome.Sharp.IconButton f2StubtnReportcard;
+        private FontAwesome.Sharp.IconButton f2StubtnExamsched;
         private FontAwesome.Sharp.IconButton f2StubtnExamMaster;
         private Panel f2StuReqSubpanel;
         private FontAwesome.Sharp.IconButton f2StubtnShiftreq;
         private FontAwesome.Sharp.IconButton f2StubtnLeavereq;
+        private Panel panel4;
+        private Panel panel3;
     }
 }
