@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using StudentManagementSystem.programSystemClasses.globalLinkClass;
+using StudentManagementSystem.programForms.formsLandingPage;
 
 namespace StudentManagementSystem.programForms.formsInProgress
 {
@@ -24,6 +25,21 @@ namespace StudentManagementSystem.programForms.formsInProgress
             f1InsPassword_txt.MaxLength = 24;
         }
         socialMedLinks InsLnks = new socialMedLinks();
+
+        private Form activeForm = null;
+        private void openMainForm1Panel(Form Form1InstructorForm)
+        {
+            if (activeForm != null)
+                activeForm.Close();
+            activeForm = Form1InstructorForm;
+            Form1InstructorForm.TopLevel = false;
+            Form1InstructorForm.FormBorderStyle = FormBorderStyle.None;
+            Form1InstructorForm.Dock = DockStyle.Fill;
+            InsMainFormpanel.Controls.Add(Form1InstructorForm); //InsMainFormpanel
+            InsMainFormpanel.Tag = Form1InstructorForm;
+            Form1InstructorForm.BringToFront();
+            Form1InstructorForm.Show();
+        }
         private void instructorLoginpage_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             this.Close();
@@ -39,5 +55,10 @@ namespace StudentManagementSystem.programForms.formsInProgress
             InsLnks.GithubLink();
         }
         #endregion
+
+        private void f1InsbtnLogin_Click(object sender, EventArgs e)
+        {
+            openMainForm1Panel(new F2InstructorLanding());
+        }
     }
 }

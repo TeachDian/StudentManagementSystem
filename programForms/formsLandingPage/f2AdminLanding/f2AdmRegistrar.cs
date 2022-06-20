@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace StudentManagementSystem.programForms.formsLandingPage
+namespace StudentManagementSystem.programForms.formsLandingPage.f2AdminLanding
 {
-    public partial class F2InstructorLanding : Form
+    public partial class f2AdmRegistrar : Form
     {
-        public F2InstructorLanding()
+        public f2AdmRegistrar()
         {
             InitializeComponent();
-        }
-
-        private void btnLogout_Click(object sender, EventArgs e)
-        {
-            this.Close();
         }
     }
 }

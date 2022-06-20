@@ -16,5 +16,47 @@ namespace StudentManagementSystem.programForms.formsLandingPage
         {
             InitializeComponent();
         }
+
+       
+
+        private void f2AdmbtnLogout_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void f2AdmbtnHome_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void f2AdmbtnAccounts_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void f2AdmbtnDepartment_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void f2AdmbtnRegistrar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void f2AdmbtnStatistics_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void f2AdmbtnEvents_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void f2AdmbtnAdmin_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

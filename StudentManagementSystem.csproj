@@ -11,7 +11,6 @@
   <ItemGroup>
     <Folder Include="programDatabase\programSql\" />
     <Folder Include="programDatabase\programAccess\" />
-    <Folder Include="programForms\formsLandingPage\f2AdminLanding\" />
     <Folder Include="programForms\formsLandingPage\f2InstructorLanding\" />
     <Folder Include="programResouces\resourcesBackground\" />
     <Folder Include="programResouces\resourcesPictures\" />

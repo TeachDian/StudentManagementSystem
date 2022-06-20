@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using StudentManagementSystem.programSystemClasses.globalLinkClass;
+using StudentManagementSystem.programForms.formsLandingPage;
+using StudentManagementSystem;
 
 namespace StudentManagementSystem.programForms.formsInProgress
 {
@@ -25,21 +27,45 @@ namespace StudentManagementSystem.programForms.formsInProgress
         }
         socialMedLinks AdmLnks = new socialMedLinks();
 
-        private void f1AdmStupage_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private Form activeForm = null;
+        private void openMainForm1Panel(Form Form1AdminForm)
         {
-            this.Close();
+            if (activeForm != null)
+                activeForm.Close();
+            activeForm = Form1AdminForm;
+            Form1AdminForm.TopLevel = false;
+            Form1AdminForm.FormBorderStyle = FormBorderStyle.None;
+            Form1AdminForm.Dock = DockStyle.Fill;
+            AdmMainFormpanel.Controls.Add(Form1AdminForm);
+            AdmMainFormpanel.Tag = Form1AdminForm;
+            Form1AdminForm.BringToFront();
+            Form1AdminForm.Show();
         }
 
+
         #region socialmedia
-        private void f1Adm1Gitpage_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void f1AdmGitpage_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             AdmLnks.FacebookLink();
         }
 
-        private void f1AdmCrepage_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void f1AdmCrepage_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
         {
             AdmLnks.GithubLink();
         }
+
         #endregion
+
+        private void adminLoginpage_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void f1AdmbtnLogin_Click(object sender, EventArgs e)
+        {
+            openMainForm1Panel(new F2AdminLanding());
+        }
+
+        
     }
 }

@@ -50,7 +50,7 @@
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.MainForm1Panel = new System.Windows.Forms.Panel();
+            this.InsMainFormpanel = new System.Windows.Forms.Panel();
             this.tblBorderpanel = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.f1InsGitpage = new System.Windows.Forms.LinkLabel();
@@ -76,7 +76,7 @@
             this.tableLayoutPanel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
-            this.MainForm1Panel.SuspendLayout();
+            this.InsMainFormpanel.SuspendLayout();
             this.tblBorderpanel.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -431,18 +431,18 @@
             this.label16.TabIndex = 17;
             this.label16.Text = "LOGIN";
             // 
-            // MainForm1Panel
+            // InsMainFormpanel
             // 
-            this.MainForm1Panel.AutoScroll = true;
-            this.MainForm1Panel.AutoSize = true;
-            this.MainForm1Panel.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.MainForm1Panel.Controls.Add(this.tblBorderpanel);
-            this.MainForm1Panel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.MainForm1Panel.Location = new System.Drawing.Point(0, 0);
-            this.MainForm1Panel.Margin = new System.Windows.Forms.Padding(0);
-            this.MainForm1Panel.Name = "MainForm1Panel";
-            this.MainForm1Panel.Size = new System.Drawing.Size(1180, 780);
-            this.MainForm1Panel.TabIndex = 1;
+            this.InsMainFormpanel.AutoScroll = true;
+            this.InsMainFormpanel.AutoSize = true;
+            this.InsMainFormpanel.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.InsMainFormpanel.Controls.Add(this.tblBorderpanel);
+            this.InsMainFormpanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.InsMainFormpanel.Location = new System.Drawing.Point(0, 0);
+            this.InsMainFormpanel.Margin = new System.Windows.Forms.Padding(0);
+            this.InsMainFormpanel.Name = "InsMainFormpanel";
+            this.InsMainFormpanel.Size = new System.Drawing.Size(1180, 780);
+            this.InsMainFormpanel.TabIndex = 1;
             // 
             // tblBorderpanel
             // 
@@ -742,6 +742,7 @@
             this.f1InsbtnLogin.TabIndex = 22;
             this.f1InsbtnLogin.Text = "Log In";
             this.f1InsbtnLogin.UseVisualStyleBackColor = false;
+            this.f1InsbtnLogin.Click += new System.EventHandler(this.f1InsbtnLogin_Click);
             // 
             // f1InsPassword_txt
             // 
@@ -823,7 +824,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1180, 780);
-            this.Controls.Add(this.MainForm1Panel);
+            this.Controls.Add(this.InsMainFormpanel);
             this.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1InstructorForm";
@@ -836,7 +837,7 @@
             this.panel3.PerformLayout();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
-            this.MainForm1Panel.ResumeLayout(false);
+            this.InsMainFormpanel.ResumeLayout(false);
             this.tblBorderpanel.ResumeLayout(false);
             this.tblBorderpanel.PerformLayout();
             this.panel1.ResumeLayout(false);
@@ -871,7 +872,7 @@
         private Label label14;
         private Label label15;
         private Label label16;
-        private Panel MainForm1Panel;
+        private Panel InsMainFormpanel;
         private TableLayoutPanel tblBorderpanel;
         private Panel panel1;
         private LinkLabel f1InsGitpage;

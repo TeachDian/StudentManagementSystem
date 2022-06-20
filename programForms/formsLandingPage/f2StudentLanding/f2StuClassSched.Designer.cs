@@ -30,7 +30,12 @@
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.creatorGitLink = new System.Windows.Forms.LinkLabel();
+            this.adminLoginpage = new System.Windows.Forms.LinkLabel();
+            this.instructorLoginpage = new System.Windows.Forms.LinkLabel();
+            this.creatorFbLink = new System.Windows.Forms.LinkLabel();
             this.tableLayoutPanel1.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -53,12 +58,84 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.creatorGitLink);
+            this.panel2.Controls.Add(this.adminLoginpage);
+            this.panel2.Controls.Add(this.instructorLoginpage);
+            this.panel2.Controls.Add(this.creatorFbLink);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(40, 40);
             this.panel2.Margin = new System.Windows.Forms.Padding(0);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(840, 600);
             this.panel2.TabIndex = 0;
+            // 
+            // creatorGitLink
+            // 
+            this.creatorGitLink.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.creatorGitLink.AutoSize = true;
+            this.creatorGitLink.BackColor = System.Drawing.Color.Transparent;
+            this.creatorGitLink.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.creatorGitLink.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.creatorGitLink.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
+            this.creatorGitLink.LinkColor = System.Drawing.Color.Gold;
+            this.creatorGitLink.Location = new System.Drawing.Point(280, 286);
+            this.creatorGitLink.Margin = new System.Windows.Forms.Padding(0);
+            this.creatorGitLink.Name = "creatorGitLink";
+            this.creatorGitLink.Size = new System.Drawing.Size(90, 28);
+            this.creatorGitLink.TabIndex = 35;
+            this.creatorGitLink.TabStop = true;
+            this.creatorGitLink.Text = "GITHUB!";
+            // 
+            // adminLoginpage
+            // 
+            this.adminLoginpage.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.adminLoginpage.AutoSize = true;
+            this.adminLoginpage.BackColor = System.Drawing.Color.Transparent;
+            this.adminLoginpage.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.adminLoginpage.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.adminLoginpage.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
+            this.adminLoginpage.LinkColor = System.Drawing.Color.Gold;
+            this.adminLoginpage.Location = new System.Drawing.Point(452, 286);
+            this.adminLoginpage.Margin = new System.Windows.Forms.Padding(0);
+            this.adminLoginpage.Name = "adminLoginpage";
+            this.adminLoginpage.Size = new System.Drawing.Size(87, 28);
+            this.adminLoginpage.TabIndex = 34;
+            this.adminLoginpage.TabStop = true;
+            this.adminLoginpage.Text = "ADMIN?";
+            // 
+            // instructorLoginpage
+            // 
+            this.instructorLoginpage.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.instructorLoginpage.AutoSize = true;
+            this.instructorLoginpage.BackColor = System.Drawing.Color.Transparent;
+            this.instructorLoginpage.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.instructorLoginpage.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.instructorLoginpage.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
+            this.instructorLoginpage.LinkColor = System.Drawing.Color.Gold;
+            this.instructorLoginpage.Location = new System.Drawing.Point(542, 286);
+            this.instructorLoginpage.Margin = new System.Windows.Forms.Padding(0);
+            this.instructorLoginpage.Name = "instructorLoginpage";
+            this.instructorLoginpage.Size = new System.Drawing.Size(127, 28);
+            this.instructorLoginpage.TabIndex = 33;
+            this.instructorLoginpage.TabStop = true;
+            this.instructorLoginpage.Text = "INSTUCTOR?";
+            // 
+            // creatorFbLink
+            // 
+            this.creatorFbLink.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.creatorFbLink.AutoSize = true;
+            this.creatorFbLink.BackColor = System.Drawing.Color.Transparent;
+            this.creatorFbLink.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.creatorFbLink.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.creatorFbLink.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
+            this.creatorFbLink.LinkColor = System.Drawing.Color.Gold;
+            this.creatorFbLink.Location = new System.Drawing.Point(172, 286);
+            this.creatorFbLink.Margin = new System.Windows.Forms.Padding(0);
+            this.creatorFbLink.Name = "creatorFbLink";
+            this.creatorFbLink.Size = new System.Drawing.Size(101, 28);
+            this.creatorFbLink.TabIndex = 32;
+            this.creatorFbLink.TabStop = true;
+            this.creatorFbLink.Text = "CREATOR!";
             // 
             // f2StuClassSched
             // 
@@ -72,6 +149,8 @@
             this.Name = "f2StuClassSched";
             this.Text = "f2StuClassSched";
             this.tableLayoutPanel1.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -80,5 +159,9 @@
 
         private TableLayoutPanel tableLayoutPanel1;
         private Panel panel2;
+        private LinkLabel creatorGitLink;
+        private LinkLabel adminLoginpage;
+        private LinkLabel instructorLoginpage;
+        private LinkLabel creatorFbLink;
     }
 }
