@@ -10,7 +10,11 @@
 
   <ItemGroup>
     <Folder Include="programDatabase\programSql\" />
+    <Folder Include="programResouces\resourcesBackground\" />
+    <Folder Include="programResouces\resourcesPictures\" />
     <Folder Include="programResouces\resourcesLogos\" />
+    
+   
     <Folder Include="programSystemClasses\systemMiscClass\" />
   </ItemGroup>
 
