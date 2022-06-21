@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1AdminForm));
             this.AdmMainFormpanel = new System.Windows.Forms.Panel();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -70,7 +69,7 @@
             // 
             // tableLayoutPanel1
             // 
-            this.tableLayoutPanel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tableLayoutPanel1.BackgroundImage")));
+            this.tableLayoutPanel1.BackgroundImage = global::StudentManagementSystem.Properties.Resources.qt56ukici7g41_small;
             this.tableLayoutPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.tableLayoutPanel1.ColumnCount = 4;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 50F));
@@ -92,7 +91,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
+            this.panel1.BackgroundImage = global::StudentManagementSystem.Properties.Resources.background2;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel1.Controls.Add(this.f1AdmGitpage);
             this.panel1.Controls.Add(this.f1AdmStupage);
@@ -180,7 +179,7 @@
             // 
             // panel2
             // 
-            this.panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel2.BackgroundImage")));
+            this.panel2.BackgroundImage = global::StudentManagementSystem.Properties.Resources.Background121;
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel2.Controls.Add(this.label45);
             this.panel2.Controls.Add(this.label46);
@@ -350,7 +349,7 @@
             this.f1AdmbtnLogin.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.f1AdmbtnLogin.AutoSize = true;
             this.f1AdmbtnLogin.BackColor = System.Drawing.Color.Transparent;
-            this.f1AdmbtnLogin.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("f1AdmbtnLogin.BackgroundImage")));
+            this.f1AdmbtnLogin.BackgroundImage = global::StudentManagementSystem.Properties.Resources.Button32;
             this.f1AdmbtnLogin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.f1AdmbtnLogin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.f1AdmbtnLogin.DialogResult = System.Windows.Forms.DialogResult.Continue;

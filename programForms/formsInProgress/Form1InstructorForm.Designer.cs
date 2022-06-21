@@ -446,7 +446,7 @@
             // 
             // tblBorderpanel
             // 
-            this.tblBorderpanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tblBorderpanel.BackgroundImage")));
+            this.tblBorderpanel.BackgroundImage = global::StudentManagementSystem.Properties.Resources.qt56ukici7g41_small;
             this.tblBorderpanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.tblBorderpanel.ColumnCount = 4;
             this.tblBorderpanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 50F));
@@ -469,7 +469,7 @@
             // panel1
             // 
             this.panel1.AutoSize = true;
-            this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
+            this.panel1.BackgroundImage = global::StudentManagementSystem.Properties.Resources.background2;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel1.Controls.Add(this.f1InsGitpage);
             this.panel1.Controls.Add(this.f1InsAdmpage);
@@ -558,7 +558,7 @@
             // panel2
             // 
             this.panel2.AutoSize = true;
-            this.panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel2.BackgroundImage")));
+            this.panel2.BackgroundImage = global::StudentManagementSystem.Properties.Resources.Background121;
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel2.Controls.Add(this.label17);
             this.panel2.Controls.Add(this.label2);
@@ -728,7 +728,7 @@
             this.f1InsbtnLogin.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.f1InsbtnLogin.AutoSize = true;
             this.f1InsbtnLogin.BackColor = System.Drawing.Color.Transparent;
-            this.f1InsbtnLogin.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("f1InsbtnLogin.BackgroundImage")));
+            this.f1InsbtnLogin.BackgroundImage = global::StudentManagementSystem.Properties.Resources.Button32;
             this.f1InsbtnLogin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.f1InsbtnLogin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.f1InsbtnLogin.DialogResult = System.Windows.Forms.DialogResult.Continue;
