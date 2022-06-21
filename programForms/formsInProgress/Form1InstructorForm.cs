@@ -1,14 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using StudentManagementSystem.programForms.formsLandingPage;
+using StudentManagementSystem.programForms.formsMeettheMaker;
 using StudentManagementSystem.programSystemClasses.globalLinkClass;
-using StudentManagementSystem.programForms.formsLandingPage;
 
 
 namespace StudentManagementSystem.programForms.formsInProgress
@@ -65,6 +57,11 @@ namespace StudentManagementSystem.programForms.formsInProgress
         private void signupAccLink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             openMainForm1Panel(new Form1SignupForm());
+        }
+
+        private void meetTheMakerbtn_Click(object sender, EventArgs e)
+        {
+            openMainForm1Panel(new FormofPhilip());
         }
     }
 }

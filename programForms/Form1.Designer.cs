@@ -37,6 +37,7 @@
             this.instructorLoginpage = new System.Windows.Forms.LinkLabel();
             this.creatorFbLink = new System.Windows.Forms.LinkLabel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.meetTheMakerbtn = new FontAwesome.Sharp.IconButton();
             this.label9 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -53,7 +54,6 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
             this.MainForm1Panel.SuspendLayout();
             this.tblBorderpanel.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -70,6 +70,7 @@
             // tblBorderpanel
             // 
             resources.ApplyResources(this.tblBorderpanel, "tblBorderpanel");
+            this.tblBorderpanel.BackgroundImage = global::StudentManagementSystem.Properties.Resources.qt56ukici7g41_small;
             this.tblBorderpanel.Controls.Add(this.panel1, 1, 1);
             this.tblBorderpanel.Controls.Add(this.panel2, 2, 1);
             this.tblBorderpanel.Name = "tblBorderpanel";
@@ -77,6 +78,7 @@
             // panel1
             // 
             resources.ApplyResources(this.panel1, "panel1");
+            this.panel1.BackgroundImage = global::StudentManagementSystem.Properties.Resources.background2;
             this.panel1.Controls.Add(this.creatorGitLink);
             this.panel1.Controls.Add(this.adminLoginpage);
             this.panel1.Controls.Add(this.instructorLoginpage);
@@ -126,6 +128,7 @@
             // panel2
             // 
             resources.ApplyResources(this.panel2, "panel2");
+            this.panel2.BackgroundImage = global::StudentManagementSystem.Properties.Resources.Background121;
             this.panel2.Controls.Add(this.panel3);
             this.panel2.Controls.Add(this.label9);
             this.panel2.Controls.Add(this.label2);
@@ -143,6 +146,13 @@
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.label3);
             this.panel2.Name = "panel2";
+            // 
+            // panel3
+            // 
+            resources.ApplyResources(this.panel3, "panel3");
+            this.panel3.BackColor = System.Drawing.Color.Transparent;
+            this.panel3.Controls.Add(this.meetTheMakerbtn);
+            this.panel3.Name = "panel3";
             // 
             // meetTheMakerbtn
             // 
@@ -230,6 +240,7 @@
             // 
             resources.ApplyResources(this.btnLogin, "btnLogin");
             this.btnLogin.BackColor = System.Drawing.Color.Transparent;
+            this.btnLogin.BackgroundImage = global::StudentManagementSystem.Properties.Resources.Button32;
             this.btnLogin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnLogin.DialogResult = System.Windows.Forms.DialogResult.Continue;
             this.btnLogin.ForeColor = System.Drawing.Color.WhiteSmoke;
@@ -270,13 +281,6 @@
             this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label3.ForeColor = System.Drawing.Color.Black;
             this.label3.Name = "label3";
-            // 
-            // panel3
-            // 
-            resources.ApplyResources(this.panel3, "panel3");
-            this.panel3.BackColor = System.Drawing.Color.Transparent;
-            this.panel3.Controls.Add(this.meetTheMakerbtn);
-            this.panel3.Name = "panel3";
             // 
             // Form1
             // 

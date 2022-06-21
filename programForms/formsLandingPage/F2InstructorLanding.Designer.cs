@@ -72,10 +72,10 @@
             // 
             this.f2InsLandingPanel.AutoScroll = true;
             this.f2InsLandingPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.f2InsLandingPanel.Location = new System.Drawing.Point(260, 100);
+            this.f2InsLandingPanel.Location = new System.Drawing.Point(280, 120);
             this.f2InsLandingPanel.Margin = new System.Windows.Forms.Padding(0);
             this.f2InsLandingPanel.Name = "f2InsLandingPanel";
-            this.f2InsLandingPanel.Size = new System.Drawing.Size(920, 680);
+            this.f2InsLandingPanel.Size = new System.Drawing.Size(880, 640);
             this.f2InsLandingPanel.TabIndex = 5;
             // 
             // panel2
@@ -96,9 +96,9 @@
             this.panel2.Controls.Add(this.f2InsbtnStudents);
             this.panel2.Controls.Add(this.f2InsbtnDashboard);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel2.Location = new System.Drawing.Point(0, 100);
+            this.panel2.Location = new System.Drawing.Point(20, 120);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(260, 680);
+            this.panel2.Size = new System.Drawing.Size(260, 640);
             this.panel2.TabIndex = 4;
             // 
             // panel6
@@ -591,17 +591,17 @@
             this.panel1.Controls.Add(this.panel4);
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Location = new System.Drawing.Point(20, 20);
             this.panel1.Margin = new System.Windows.Forms.Padding(0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1180, 100);
+            this.panel1.Size = new System.Drawing.Size(1140, 100);
             this.panel1.TabIndex = 3;
             // 
             // panel4
             // 
             this.panel4.Controls.Add(this.btnLogout);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel4.Location = new System.Drawing.Point(960, 0);
+            this.panel4.Location = new System.Drawing.Point(920, 0);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(220, 100);
             this.panel4.TabIndex = 3;
@@ -612,7 +612,7 @@
             this.btnLogout.FlatAppearance.BorderSize = 0;
             this.btnLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLogout.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnLogout.IconChar = FontAwesome.Sharp.IconChar.UserLock;
+            this.btnLogout.IconChar = FontAwesome.Sharp.IconChar.ArrowAltCircleRight;
             this.btnLogout.IconColor = System.Drawing.Color.Black;
             this.btnLogout.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnLogout.Location = new System.Drawing.Point(0, 0);
@@ -645,6 +645,7 @@
             this.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "F2InstructorLanding";
+            this.Padding = new System.Windows.Forms.Padding(20);
             this.Text = "F2InstructorLanding";
             this.panel2.ResumeLayout(false);
             this.panel6.ResumeLayout(false);

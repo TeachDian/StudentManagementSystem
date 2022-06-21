@@ -1,13 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using StudentManagementSystem.programForms.formsLandingPage.f2StudentLanding;
+﻿using StudentManagementSystem.programForms.formsLandingPage.f2StudentLanding;
 
 namespace StudentManagementSystem.programForms.formsLandingPage
 {
@@ -49,8 +40,8 @@ namespace StudentManagementSystem.programForms.formsLandingPage
                 f2StuReqSubpanel.Visible = false;
             if (f2StuExaSubpanel.Visible == true)
                 f2StuExaSubpanel.Visible = false;
-           if (f2StuLibSubpanel.Visible == true)
-                f2StuLibSubpanel.Visible = false;         
+            if (f2StuLibSubpanel.Visible == true)
+                f2StuLibSubpanel.Visible = false;
         }
 
         private void panel2Show(Panel panel2Menu)
@@ -66,11 +57,11 @@ namespace StudentManagementSystem.programForms.formsLandingPage
         private void panel2PNBtn()
         {
             f2StubtnAcademic.Text = "Academic +";
-            f2StubtnRequest.Text = "Request +";            
+            f2StubtnRequest.Text = "Request +";
             f2StubtnExamMaster.Text = "Exam Master +";
             f2StubtnLibrary.Text = "Library +";
         }
-        
+
 
         private void btnLogout_Click(object sender, EventArgs e)
         {
@@ -93,9 +84,9 @@ namespace StudentManagementSystem.programForms.formsLandingPage
 
         private void f2StubtnAcademic_Click(object sender, EventArgs e)
         {
-            panel2Show(f2StuAcaSubpanel); 
+            panel2Show(f2StuAcaSubpanel);
             this.f2StubtnAcademic.Text = "Academic -";
-            
+
         }
 
         private void f2StubtnSubject_Click(object sender, EventArgs e)

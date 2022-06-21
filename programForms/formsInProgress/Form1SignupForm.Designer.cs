@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1SignupForm));
             this.SigMainFormpane = new System.Windows.Forms.Panel();
             this.tblBorderpanel = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -69,7 +68,7 @@
             // 
             // tblBorderpanel
             // 
-            this.tblBorderpanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tblBorderpanel.BackgroundImage")));
+            this.tblBorderpanel.BackgroundImage = global::StudentManagementSystem.Properties.Resources.qt56ukici7g41_small;
             this.tblBorderpanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.tblBorderpanel.ColumnCount = 4;
             this.tblBorderpanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 50F));
@@ -92,7 +91,7 @@
             // panel1
             // 
             this.panel1.AutoSize = true;
-            this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
+            this.panel1.BackgroundImage = global::StudentManagementSystem.Properties.Resources.background2;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel1.Controls.Add(this.creatorGitLink);
             this.panel1.Controls.Add(this.creatorFbLink);
@@ -142,7 +141,7 @@
             // panel2
             // 
             this.panel2.AutoSize = true;
-            this.panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel2.BackgroundImage")));
+            this.panel2.BackgroundImage = global::StudentManagementSystem.Properties.Resources.Background121;
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel2.Controls.Add(this.Signup2Password_txt);
             this.panel2.Controls.Add(this.label10);
@@ -327,7 +326,7 @@
             this.btnSignup.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnSignup.AutoSize = true;
             this.btnSignup.BackColor = System.Drawing.Color.Transparent;
-            this.btnSignup.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnSignup.BackgroundImage")));
+            this.btnSignup.BackgroundImage = global::StudentManagementSystem.Properties.Resources.Button32;
             this.btnSignup.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnSignup.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSignup.DialogResult = System.Windows.Forms.DialogResult.Continue;

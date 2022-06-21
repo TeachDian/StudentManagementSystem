@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1AdminForm));
             this.AdmMainFormpanel = new System.Windows.Forms.Panel();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -52,10 +51,13 @@
             this.label51 = new System.Windows.Forms.Label();
             this.label52 = new System.Windows.Forms.Label();
             this.label53 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.meetTheMakerbtn = new FontAwesome.Sharp.IconButton();
             this.AdmMainFormpanel.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // AdmMainFormpanel
@@ -70,7 +72,7 @@
             // 
             // tableLayoutPanel1
             // 
-            this.tableLayoutPanel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tableLayoutPanel1.BackgroundImage")));
+            this.tableLayoutPanel1.BackgroundImage = global::StudentManagementSystem.Properties.Resources.qt56ukici7g41_small;
             this.tableLayoutPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.tableLayoutPanel1.ColumnCount = 4;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 50F));
@@ -92,7 +94,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
+            this.panel1.BackgroundImage = global::StudentManagementSystem.Properties.Resources.background2;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel1.Controls.Add(this.f1AdmGitpage);
             this.panel1.Controls.Add(this.f1AdmStupage);
@@ -180,8 +182,9 @@
             // 
             // panel2
             // 
-            this.panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel2.BackgroundImage")));
+            this.panel2.BackgroundImage = global::StudentManagementSystem.Properties.Resources.Background121;
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel2.Controls.Add(this.panel3);
             this.panel2.Controls.Add(this.label45);
             this.panel2.Controls.Add(this.label46);
             this.panel2.Controls.Add(this.label47);
@@ -350,7 +353,7 @@
             this.f1AdmbtnLogin.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.f1AdmbtnLogin.AutoSize = true;
             this.f1AdmbtnLogin.BackColor = System.Drawing.Color.Transparent;
-            this.f1AdmbtnLogin.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("f1AdmbtnLogin.BackgroundImage")));
+            this.f1AdmbtnLogin.BackgroundImage = global::StudentManagementSystem.Properties.Resources.Button32;
             this.f1AdmbtnLogin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.f1AdmbtnLogin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.f1AdmbtnLogin.DialogResult = System.Windows.Forms.DialogResult.Continue;
@@ -442,6 +445,36 @@
             this.label53.TabIndex = 53;
             this.label53.Text = "LOGIN";
             // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.Transparent;
+            this.panel3.Controls.Add(this.meetTheMakerbtn);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel3.Location = new System.Drawing.Point(510, 0);
+            this.panel3.Margin = new System.Windows.Forms.Padding(0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(30, 680);
+            this.panel3.TabIndex = 68;
+            // 
+            // meetTheMakerbtn
+            // 
+            this.meetTheMakerbtn.BackColor = System.Drawing.Color.Transparent;
+            this.meetTheMakerbtn.Dock = System.Windows.Forms.DockStyle.Top;
+            this.meetTheMakerbtn.FlatAppearance.BorderSize = 0;
+            this.meetTheMakerbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.meetTheMakerbtn.IconChar = FontAwesome.Sharp.IconChar.QuestionCircle;
+            this.meetTheMakerbtn.IconColor = System.Drawing.Color.DimGray;
+            this.meetTheMakerbtn.IconFont = FontAwesome.Sharp.IconFont.Regular;
+            this.meetTheMakerbtn.IconSize = 30;
+            this.meetTheMakerbtn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.meetTheMakerbtn.Location = new System.Drawing.Point(0, 0);
+            this.meetTheMakerbtn.Margin = new System.Windows.Forms.Padding(0);
+            this.meetTheMakerbtn.Name = "meetTheMakerbtn";
+            this.meetTheMakerbtn.Size = new System.Drawing.Size(30, 30);
+            this.meetTheMakerbtn.TabIndex = 37;
+            this.meetTheMakerbtn.UseVisualStyleBackColor = false;
+            this.meetTheMakerbtn.Click += new System.EventHandler(this.meetTheMakerbtn_Click);
+            // 
             // Form1AdminForm
             // 
             this.ClientSize = new System.Drawing.Size(1180, 780);
@@ -454,6 +487,7 @@
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            this.panel3.ResumeLayout(false);
             this.ResumeLayout(false);
 
     }
@@ -483,5 +517,7 @@
         private LinkLabel f1AdmStupage;
         private LinkLabel f1AdmInspage;
         private LinkLabel f1AdmCrepage;
+        private Panel panel3;
+        private FontAwesome.Sharp.IconButton meetTheMakerbtn;
     }
 }

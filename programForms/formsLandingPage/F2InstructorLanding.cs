@@ -1,13 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using StudentManagementSystem.programForms.formsLandingPage.f2InstructorLanding;
+﻿using StudentManagementSystem.programForms.formsLandingPage.f2InstructorLanding;
 
 namespace StudentManagementSystem.programForms.formsLandingPage
 {
@@ -16,7 +7,7 @@ namespace StudentManagementSystem.programForms.formsLandingPage
         public F2InstructorLanding()
         {
             InitializeComponent();
-            panel2Design(); 
+            panel2Design();
         }
 
         private void btnLogout_Click(object sender, EventArgs e)
@@ -25,18 +16,18 @@ namespace StudentManagementSystem.programForms.formsLandingPage
         }
 
         private Form actvInsLnding = null;
-        private void openMainForm1Panel(Form MainForm1)
+        private void openMainForm1Panel(Form InsMainFormpanel)
         {
             if (actvInsLnding != null)
                 actvInsLnding.Close();
-            actvInsLnding = MainForm1;
-            MainForm1.TopLevel = false;
-            MainForm1.FormBorderStyle = FormBorderStyle.None;
-            MainForm1.Dock = DockStyle.Fill;
-            actvInsLnding.Controls.Add(MainForm1);
-            actvInsLnding.Tag = MainForm1;
-            MainForm1.BringToFront();
-            MainForm1.Show();
+            actvInsLnding = InsMainFormpanel;
+            InsMainFormpanel.TopLevel = false;
+            InsMainFormpanel.FormBorderStyle = FormBorderStyle.None;
+            InsMainFormpanel.Dock = DockStyle.Fill;
+            f2InsLandingPanel.Controls.Add(InsMainFormpanel);
+            f2InsLandingPanel.Tag = InsMainFormpanel;
+            InsMainFormpanel.BringToFront();
+            InsMainFormpanel.Show();
         }
 
         private void panel2Design()
@@ -141,7 +132,7 @@ namespace StudentManagementSystem.programForms.formsLandingPage
             panel2Show(f2InsExaSubpanel);
             this.f2InsbtnExamMaster.Text = "Exam Master -";
         }
-    
+
 
         private void f2InsbtnExamsched_Click(object sender, EventArgs e)
         {
@@ -198,6 +189,6 @@ namespace StudentManagementSystem.programForms.formsLandingPage
             panel2PNBtn();
         }
 
-        
+
     }
 }

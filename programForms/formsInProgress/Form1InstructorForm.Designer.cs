@@ -73,6 +73,8 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.meetTheMakerbtn = new FontAwesome.Sharp.IconButton();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -80,6 +82,7 @@
             this.tblBorderpanel.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
+            this.panel5.SuspendLayout();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -446,7 +449,7 @@
             // 
             // tblBorderpanel
             // 
-            this.tblBorderpanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tblBorderpanel.BackgroundImage")));
+            this.tblBorderpanel.BackgroundImage = global::StudentManagementSystem.Properties.Resources.qt56ukici7g41_small;
             this.tblBorderpanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.tblBorderpanel.ColumnCount = 4;
             this.tblBorderpanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 50F));
@@ -469,7 +472,7 @@
             // panel1
             // 
             this.panel1.AutoSize = true;
-            this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
+            this.panel1.BackgroundImage = global::StudentManagementSystem.Properties.Resources.background2;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel1.Controls.Add(this.f1InsGitpage);
             this.panel1.Controls.Add(this.f1InsAdmpage);
@@ -558,8 +561,9 @@
             // panel2
             // 
             this.panel2.AutoSize = true;
-            this.panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel2.BackgroundImage")));
+            this.panel2.BackgroundImage = global::StudentManagementSystem.Properties.Resources.Background121;
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel2.Controls.Add(this.panel5);
             this.panel2.Controls.Add(this.label17);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.label1);
@@ -728,7 +732,7 @@
             this.f1InsbtnLogin.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.f1InsbtnLogin.AutoSize = true;
             this.f1InsbtnLogin.BackColor = System.Drawing.Color.Transparent;
-            this.f1InsbtnLogin.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("f1InsbtnLogin.BackgroundImage")));
+            this.f1InsbtnLogin.BackgroundImage = global::StudentManagementSystem.Properties.Resources.Button32;
             this.f1InsbtnLogin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.f1InsbtnLogin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.f1InsbtnLogin.DialogResult = System.Windows.Forms.DialogResult.Continue;
@@ -820,6 +824,36 @@
             this.label3.TabIndex = 17;
             this.label3.Text = "LOGIN";
             // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.Transparent;
+            this.panel5.Controls.Add(this.meetTheMakerbtn);
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel5.Location = new System.Drawing.Point(510, 0);
+            this.panel5.Margin = new System.Windows.Forms.Padding(0);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(30, 680);
+            this.panel5.TabIndex = 39;
+            // 
+            // meetTheMakerbtn
+            // 
+            this.meetTheMakerbtn.BackColor = System.Drawing.Color.Transparent;
+            this.meetTheMakerbtn.Dock = System.Windows.Forms.DockStyle.Top;
+            this.meetTheMakerbtn.FlatAppearance.BorderSize = 0;
+            this.meetTheMakerbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.meetTheMakerbtn.IconChar = FontAwesome.Sharp.IconChar.QuestionCircle;
+            this.meetTheMakerbtn.IconColor = System.Drawing.Color.DimGray;
+            this.meetTheMakerbtn.IconFont = FontAwesome.Sharp.IconFont.Regular;
+            this.meetTheMakerbtn.IconSize = 30;
+            this.meetTheMakerbtn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.meetTheMakerbtn.Location = new System.Drawing.Point(0, 0);
+            this.meetTheMakerbtn.Margin = new System.Windows.Forms.Padding(0);
+            this.meetTheMakerbtn.Name = "meetTheMakerbtn";
+            this.meetTheMakerbtn.Size = new System.Drawing.Size(30, 30);
+            this.meetTheMakerbtn.TabIndex = 37;
+            this.meetTheMakerbtn.UseVisualStyleBackColor = false;
+            this.meetTheMakerbtn.Click += new System.EventHandler(this.meetTheMakerbtn_Click);
+            // 
             // Form1InstructorForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 28F);
@@ -845,6 +879,7 @@
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            this.panel5.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -896,5 +931,7 @@
         private Label label4;
         private Label label3;
         private Label label17;
+        private Panel panel5;
+        private FontAwesome.Sharp.IconButton meetTheMakerbtn;
     }
 }

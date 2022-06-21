@@ -1,13 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using StudentManagementSystem.programSystemClasses.globalLinkClass;
+﻿using StudentManagementSystem.programSystemClasses.globalLinkClass;
+
 
 namespace StudentManagementSystem.programForms.formsLandingPage
 {
@@ -46,5 +38,6 @@ namespace StudentManagementSystem.programForms.formsLandingPage
         {
             //create new id in data base
         }
+
     }
 }

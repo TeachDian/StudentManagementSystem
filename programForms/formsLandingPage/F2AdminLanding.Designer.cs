@@ -34,7 +34,6 @@
             this.f2AdmbtnRegistrar = new FontAwesome.Sharp.IconButton();
             this.f2AdmbtnDepartment = new FontAwesome.Sharp.IconButton();
             this.f2AdmbtnAccounts = new FontAwesome.Sharp.IconButton();
-            this.panel5 = new System.Windows.Forms.Panel();
             this.f2AdmbtnHome = new FontAwesome.Sharp.IconButton();
             this.panelLogoadminpage = new System.Windows.Forms.Panel();
             this.f2AdmRightbtnPanel = new System.Windows.Forms.Panel();
@@ -55,14 +54,13 @@
             this.f2AdmLeftbtnPanel.Controls.Add(this.f2AdmbtnRegistrar);
             this.f2AdmLeftbtnPanel.Controls.Add(this.f2AdmbtnDepartment);
             this.f2AdmLeftbtnPanel.Controls.Add(this.f2AdmbtnAccounts);
-            this.f2AdmLeftbtnPanel.Controls.Add(this.panel5);
             this.f2AdmLeftbtnPanel.Controls.Add(this.f2AdmbtnHome);
             this.f2AdmLeftbtnPanel.Controls.Add(this.panelLogoadminpage);
             this.f2AdmLeftbtnPanel.Dock = System.Windows.Forms.DockStyle.Left;
-            this.f2AdmLeftbtnPanel.Location = new System.Drawing.Point(0, 0);
+            this.f2AdmLeftbtnPanel.Location = new System.Drawing.Point(20, 20);
             this.f2AdmLeftbtnPanel.Margin = new System.Windows.Forms.Padding(0);
             this.f2AdmLeftbtnPanel.Name = "f2AdmLeftbtnPanel";
-            this.f2AdmLeftbtnPanel.Size = new System.Drawing.Size(150, 780);
+            this.f2AdmLeftbtnPanel.Size = new System.Drawing.Size(150, 740);
             this.f2AdmLeftbtnPanel.TabIndex = 0;
             // 
             // f2AdmbtnEvents
@@ -160,14 +158,6 @@
             this.f2AdmbtnAccounts.UseVisualStyleBackColor = true;
             this.f2AdmbtnAccounts.Click += new System.EventHandler(this.f2AdmbtnAccounts_Click);
             // 
-            // panel5
-            // 
-            this.panel5.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel5.Location = new System.Drawing.Point(0, 706);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(150, 74);
-            this.panel5.TabIndex = 0;
-            // 
             // f2AdmbtnHome
             // 
             this.f2AdmbtnHome.Dock = System.Windows.Forms.DockStyle.Top;
@@ -203,10 +193,10 @@
             this.f2AdmRightbtnPanel.Controls.Add(this.f2AdmbtnAdmin);
             this.f2AdmRightbtnPanel.Controls.Add(this.f2AdmUserpanel);
             this.f2AdmRightbtnPanel.Dock = System.Windows.Forms.DockStyle.Right;
-            this.f2AdmRightbtnPanel.Location = new System.Drawing.Point(980, 0);
+            this.f2AdmRightbtnPanel.Location = new System.Drawing.Point(960, 20);
             this.f2AdmRightbtnPanel.Margin = new System.Windows.Forms.Padding(0);
             this.f2AdmRightbtnPanel.Name = "f2AdmRightbtnPanel";
-            this.f2AdmRightbtnPanel.Size = new System.Drawing.Size(200, 780);
+            this.f2AdmRightbtnPanel.Size = new System.Drawing.Size(200, 740);
             this.f2AdmRightbtnPanel.TabIndex = 1;
             // 
             // f2AdmbtnLogout
@@ -218,7 +208,7 @@
             this.f2AdmbtnLogout.IconColor = System.Drawing.Color.DimGray;
             this.f2AdmbtnLogout.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.f2AdmbtnLogout.IconSize = 70;
-            this.f2AdmbtnLogout.Location = new System.Drawing.Point(0, 680);
+            this.f2AdmbtnLogout.Location = new System.Drawing.Point(0, 640);
             this.f2AdmbtnLogout.Name = "f2AdmbtnLogout";
             this.f2AdmbtnLogout.Size = new System.Drawing.Size(200, 100);
             this.f2AdmbtnLogout.TabIndex = 5;
@@ -230,7 +220,7 @@
             // 
             // f2AdmbtnAdmin
             // 
-            this.f2AdmbtnAdmin.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.f2AdmbtnAdmin.Dock = System.Windows.Forms.DockStyle.Top;
             this.f2AdmbtnAdmin.FlatAppearance.BorderSize = 0;
             this.f2AdmbtnAdmin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.f2AdmbtnAdmin.IconChar = FontAwesome.Sharp.IconChar.Crown;
@@ -258,20 +248,20 @@
             // panel3
             // 
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel3.Location = new System.Drawing.Point(150, 0);
+            this.panel3.Location = new System.Drawing.Point(170, 20);
             this.panel3.Margin = new System.Windows.Forms.Padding(0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(830, 100);
+            this.panel3.Size = new System.Drawing.Size(790, 100);
             this.panel3.TabIndex = 2;
             // 
             // f2AdmMainboardPanel
             // 
             this.f2AdmMainboardPanel.AutoScroll = true;
             this.f2AdmMainboardPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.f2AdmMainboardPanel.Location = new System.Drawing.Point(150, 100);
+            this.f2AdmMainboardPanel.Location = new System.Drawing.Point(170, 120);
             this.f2AdmMainboardPanel.Margin = new System.Windows.Forms.Padding(10);
             this.f2AdmMainboardPanel.Name = "f2AdmMainboardPanel";
-            this.f2AdmMainboardPanel.Size = new System.Drawing.Size(830, 680);
+            this.f2AdmMainboardPanel.Size = new System.Drawing.Size(790, 640);
             this.f2AdmMainboardPanel.TabIndex = 3;
             // 
             // F2AdminLanding
@@ -286,6 +276,7 @@
             this.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "F2AdminLanding";
+            this.Padding = new System.Windows.Forms.Padding(20);
             this.Text = "F2AdminLanding";
             this.f2AdmLeftbtnPanel.ResumeLayout(false);
             this.f2AdmRightbtnPanel.ResumeLayout(false);
@@ -300,7 +291,6 @@
         private Panel f2AdmRightbtnPanel;
         private Panel panel3;
         private Panel f2AdmMainboardPanel;
-        private Panel panel5;
         private FontAwesome.Sharp.IconButton f2AdmbtnHome;
         private FontAwesome.Sharp.IconButton f2AdmbtnEvents;
         private FontAwesome.Sharp.IconButton f2AdmbtnStatistics;
