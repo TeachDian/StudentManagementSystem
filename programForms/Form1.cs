@@ -1,6 +1,7 @@
 using StudentManagementSystem.programForms.formsInProgress;
 using StudentManagementSystem.programForms.formsLandingPage;
 using StudentManagementSystem.programSystemClasses.globalLinkClass;
+using StudentManagementSystem.programForms.formsMeettheMaker;
 
 namespace StudentManagementSystem
 {
@@ -74,5 +75,9 @@ namespace StudentManagementSystem
             openMainForm1Panel(new Form1InstructorForm());
         }
 
+        private void meetTheMakerbtn_Click(object sender, EventArgs e)
+        {
+            openMainForm1Panel(new FormofPhilip());
+        }
     }
 }

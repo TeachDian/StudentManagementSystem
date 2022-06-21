@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using StudentManagementSystem.programSystemClasses.globalLinkClass;
 
 namespace StudentManagementSystem.programForms.formsLandingPage
 {
@@ -15,6 +16,15 @@ namespace StudentManagementSystem.programForms.formsLandingPage
         public Form1SignupForm()
         {
             InitializeComponent();
+            SignupMaxlength();
+        }
+
+        socialMedLinks spLnks = new socialMedLinks();
+        private void SignupMaxlength()
+        {
+            SignupUsername_txt.MaxLength = 20;
+            Signup1Password_txt.MaxLength = 24;
+            Signup2Password_txt.MaxLength = 24;
         }
 
         private void signupAccLink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -22,9 +32,19 @@ namespace StudentManagementSystem.programForms.formsLandingPage
             this.Close();
         }
 
-        private void iconButton1_Click(object sender, EventArgs e)
+        private void creatorFbLink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            
+            spLnks.FacebookLink();
+        }
+
+        private void creatorGitLink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            spLnks.GithubLink();
+        }
+
+        private void btnSignup_Click(object sender, EventArgs e)
+        {
+            //create new id in data base
         }
     }
 }

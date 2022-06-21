@@ -45,9 +45,9 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.btnLogin = new System.Windows.Forms.Button();
+            this.btnSignup = new System.Windows.Forms.Button();
             this.Signup1Password_txt = new System.Windows.Forms.TextBox();
-            this.username_txt = new System.Windows.Forms.TextBox();
+            this.SignupUsername_txt = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -119,6 +119,7 @@
             this.creatorGitLink.TabIndex = 31;
             this.creatorGitLink.TabStop = true;
             this.creatorGitLink.Text = "GITHUB!";
+            this.creatorGitLink.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.creatorGitLink_LinkClicked);
             // 
             // creatorFbLink
             // 
@@ -136,6 +137,7 @@
             this.creatorFbLink.TabIndex = 28;
             this.creatorFbLink.TabStop = true;
             this.creatorFbLink.Text = "CREATOR!";
+            this.creatorFbLink.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.creatorFbLink_LinkClicked);
             // 
             // panel2
             // 
@@ -152,9 +154,9 @@
             this.panel2.Controls.Add(this.label7);
             this.panel2.Controls.Add(this.label6);
             this.panel2.Controls.Add(this.checkBox1);
-            this.panel2.Controls.Add(this.btnLogin);
+            this.panel2.Controls.Add(this.btnSignup);
             this.panel2.Controls.Add(this.Signup1Password_txt);
-            this.panel2.Controls.Add(this.username_txt);
+            this.panel2.Controls.Add(this.SignupUsername_txt);
             this.panel2.Controls.Add(this.label5);
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.label3);
@@ -320,26 +322,27 @@
             this.checkBox1.Text = "Log me in";
             this.checkBox1.UseVisualStyleBackColor = false;
             // 
-            // btnLogin
+            // btnSignup
             // 
-            this.btnLogin.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnLogin.AutoSize = true;
-            this.btnLogin.BackColor = System.Drawing.Color.Transparent;
-            this.btnLogin.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnLogin.BackgroundImage")));
-            this.btnLogin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnLogin.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnLogin.DialogResult = System.Windows.Forms.DialogResult.Continue;
-            this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnLogin.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnLogin.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnLogin.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnLogin.Location = new System.Drawing.Point(72, 419);
-            this.btnLogin.Margin = new System.Windows.Forms.Padding(0);
-            this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(391, 47);
-            this.btnLogin.TabIndex = 2;
-            this.btnLogin.Text = "Sign Up";
-            this.btnLogin.UseVisualStyleBackColor = false;
+            this.btnSignup.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnSignup.AutoSize = true;
+            this.btnSignup.BackColor = System.Drawing.Color.Transparent;
+            this.btnSignup.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnSignup.BackgroundImage")));
+            this.btnSignup.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnSignup.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSignup.DialogResult = System.Windows.Forms.DialogResult.Continue;
+            this.btnSignup.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnSignup.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnSignup.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnSignup.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.btnSignup.Location = new System.Drawing.Point(72, 419);
+            this.btnSignup.Margin = new System.Windows.Forms.Padding(0);
+            this.btnSignup.Name = "btnSignup";
+            this.btnSignup.Size = new System.Drawing.Size(391, 47);
+            this.btnSignup.TabIndex = 2;
+            this.btnSignup.Text = "Sign Up";
+            this.btnSignup.UseVisualStyleBackColor = false;
+            this.btnSignup.Click += new System.EventHandler(this.btnSignup_Click);
             // 
             // Signup1Password_txt
             // 
@@ -355,18 +358,18 @@
             this.Signup1Password_txt.Size = new System.Drawing.Size(391, 40);
             this.Signup1Password_txt.TabIndex = 1;
             // 
-            // username_txt
+            // SignupUsername_txt
             // 
-            this.username_txt.AllowDrop = true;
-            this.username_txt.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.username_txt.Font = new System.Drawing.Font("Segoe UI Semibold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.username_txt.Location = new System.Drawing.Point(72, 152);
-            this.username_txt.Margin = new System.Windows.Forms.Padding(0);
-            this.username_txt.Multiline = true;
-            this.username_txt.Name = "username_txt";
-            this.username_txt.PlaceholderText = "     What is your Username?";
-            this.username_txt.Size = new System.Drawing.Size(391, 40);
-            this.username_txt.TabIndex = 0;
+            this.SignupUsername_txt.AllowDrop = true;
+            this.SignupUsername_txt.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.SignupUsername_txt.Font = new System.Drawing.Font("Segoe UI Semibold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.SignupUsername_txt.Location = new System.Drawing.Point(72, 152);
+            this.SignupUsername_txt.Margin = new System.Windows.Forms.Padding(0);
+            this.SignupUsername_txt.Multiline = true;
+            this.SignupUsername_txt.Name = "SignupUsername_txt";
+            this.SignupUsername_txt.PlaceholderText = "     What is your Username?";
+            this.SignupUsername_txt.Size = new System.Drawing.Size(391, 40);
+            this.SignupUsername_txt.TabIndex = 0;
             // 
             // label5
             // 
@@ -455,9 +458,9 @@
         private Label label7;
         private Label label6;
         private CheckBox checkBox1;
-        private Button btnLogin;
+        private Button btnSignup;
         private TextBox Signup1Password_txt;
-        private TextBox username_txt;
+        private TextBox SignupUsername_txt;
         private Label label5;
         private Label label4;
         private Label label3;

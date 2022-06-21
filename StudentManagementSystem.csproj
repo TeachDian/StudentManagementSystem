@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <Folder Include="programDatabase\programSql\" />
+    <Folder Include="programForms\formsMeettheMaker\fMtMsubfolders\" />
     <Folder Include="programResouces\resourcesBackground\" />
     <Folder Include="programResouces\resourcesPictures\" />
     <Folder Include="programResouces\resourcesLogos\" />

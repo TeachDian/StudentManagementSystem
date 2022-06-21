@@ -211,16 +211,16 @@
             // 
             // f2AdmbtnLogout
             // 
-            this.f2AdmbtnLogout.Dock = System.Windows.Forms.DockStyle.Top;
+            this.f2AdmbtnLogout.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.f2AdmbtnLogout.FlatAppearance.BorderSize = 0;
             this.f2AdmbtnLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.f2AdmbtnLogout.IconChar = FontAwesome.Sharp.IconChar.ArrowAltCircleRight;
             this.f2AdmbtnLogout.IconColor = System.Drawing.Color.DimGray;
             this.f2AdmbtnLogout.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.f2AdmbtnLogout.IconSize = 70;
-            this.f2AdmbtnLogout.Location = new System.Drawing.Point(0, 454);
+            this.f2AdmbtnLogout.Location = new System.Drawing.Point(0, 680);
             this.f2AdmbtnLogout.Name = "f2AdmbtnLogout";
-            this.f2AdmbtnLogout.Size = new System.Drawing.Size(200, 80);
+            this.f2AdmbtnLogout.Size = new System.Drawing.Size(200, 100);
             this.f2AdmbtnLogout.TabIndex = 5;
             this.f2AdmbtnLogout.Text = "LOGOUT";
             this.f2AdmbtnLogout.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -230,7 +230,7 @@
             // 
             // f2AdmbtnAdmin
             // 
-            this.f2AdmbtnAdmin.Dock = System.Windows.Forms.DockStyle.Top;
+            this.f2AdmbtnAdmin.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.f2AdmbtnAdmin.FlatAppearance.BorderSize = 0;
             this.f2AdmbtnAdmin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.f2AdmbtnAdmin.IconChar = FontAwesome.Sharp.IconChar.Crown;

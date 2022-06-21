@@ -37,6 +37,7 @@
             this.instructorLoginpage = new System.Windows.Forms.LinkLabel();
             this.creatorFbLink = new System.Windows.Forms.LinkLabel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.meetTheMakerbtn = new FontAwesome.Sharp.IconButton();
             this.label9 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -52,10 +53,12 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.MainForm1Panel.SuspendLayout();
             this.tblBorderpanel.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // MainForm1Panel
@@ -123,6 +126,7 @@
             // panel2
             // 
             resources.ApplyResources(this.panel2, "panel2");
+            this.panel2.Controls.Add(this.panel3);
             this.panel2.Controls.Add(this.label9);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.label1);
@@ -139,6 +143,19 @@
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.label3);
             this.panel2.Name = "panel2";
+            // 
+            // meetTheMakerbtn
+            // 
+            resources.ApplyResources(this.meetTheMakerbtn, "meetTheMakerbtn");
+            this.meetTheMakerbtn.BackColor = System.Drawing.Color.Transparent;
+            this.meetTheMakerbtn.FlatAppearance.BorderSize = 0;
+            this.meetTheMakerbtn.IconChar = FontAwesome.Sharp.IconChar.QuestionCircle;
+            this.meetTheMakerbtn.IconColor = System.Drawing.Color.DimGray;
+            this.meetTheMakerbtn.IconFont = FontAwesome.Sharp.IconFont.Regular;
+            this.meetTheMakerbtn.IconSize = 30;
+            this.meetTheMakerbtn.Name = "meetTheMakerbtn";
+            this.meetTheMakerbtn.UseVisualStyleBackColor = false;
+            this.meetTheMakerbtn.Click += new System.EventHandler(this.meetTheMakerbtn_Click);
             // 
             // label9
             // 
@@ -254,6 +271,13 @@
             this.label3.ForeColor = System.Drawing.Color.Black;
             this.label3.Name = "label3";
             // 
+            // panel3
+            // 
+            resources.ApplyResources(this.panel3, "panel3");
+            this.panel3.BackColor = System.Drawing.Color.Transparent;
+            this.panel3.Controls.Add(this.meetTheMakerbtn);
+            this.panel3.Name = "panel3";
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
@@ -269,6 +293,7 @@
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            this.panel3.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -299,5 +324,7 @@
         private LinkLabel instructorLoginpage;
         private LinkLabel creatorFbLink;
         private Label label9;
+        private FontAwesome.Sharp.IconButton meetTheMakerbtn;
+        private Panel panel3;
     }
 }

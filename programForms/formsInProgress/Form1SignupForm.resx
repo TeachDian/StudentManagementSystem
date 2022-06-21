@@ -1826,7 +1826,7 @@
   <data name="panel1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAyAAAAP/CAIAAAC3ej/FAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vgAADr4B6kKxwAAAAC50RVh0U29mdHdhcmUAV2luZG93cyBQaG90byBFZGl0b3IgMTAuMC4xMDAxMS4x
+        vAAADrwBlbxySQAAAC50RVh0U29mdHdhcmUAV2luZG93cyBQaG90byBFZGl0b3IgMTAuMC4xMDAxMS4x
         NjM4NBB/kQkAAAAHdElNRQfmBAgLLhAmGCq5AAAAIHRFWHRDcmVhdGlvblRpbWUAMjAyMjowNDowOCAx
         MTo0NDo1MNQWiLoAAP85SURBVHhe7P3nVxtZ3v/9zrOz7vu+rplum5xxzpEsITLO2cYGHNsd3TnH6Tgd
         3bbJIJFzzhkMzgnnbGMcu3tmfufBWefB+QPOd6tgIz6F2SCXJSS01mvVwnJtVQn3rHpPVWnX3+5tfTyu
@@ -16284,10 +16284,10 @@
         3+N3Jh6RDPFMvievuH4C+SSeyReLl5bPxJu7X3D/P8p1tgdeHM46AAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="btnLogin.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnSignup.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAW8AAAA+CAIAAABr+w2lAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DQAACw0B7QfALAAAKYxJREFUeF7t3XeXJMWx8GF9qBfvQYDwsN7hBCzCw7rZ8WvZHdvejJ81IOH9YiTd
+        DAAACwwBP0AiyAAAKYxJREFUeF7t3XeXJMWx8GF9qBfvQYDwsN7hBCzCw7rZ8WvZHdvejJ81IOH9YiTd
         +8HuZOYbkZEZFZVZ1V3d0707SJzzO31mevrwn54TkZXb+pO67XhPmdtOuG4/ae5I0ndi5q4TkLr7hL7n
         JKXuden7TsnU/Sf0Ayc58+ApSj10Qj98MtWfMfPoKUg9dko/PpLqsdOQgh/+cpozT4zqJ7Gtp6gR9fRp
         Sj8zCplnxzj93Jh5ftw8PwqpFzC9a4xTu5P0nnFI7R2F9L4xs39c+fSBCdeh7MzhSUgdwfSLU6IJTh0Z
