@@ -660,6 +660,7 @@
             this.signupAccLink.TabIndex = 27;
             this.signupAccLink.TabStop = true;
             this.signupAccLink.Text = "SIGN UP";
+            this.signupAccLink.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.signupAccLink_LinkClicked);
             // 
             // label7
             // 

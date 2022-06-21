@@ -66,6 +66,9 @@ namespace StudentManagementSystem.programForms.formsInProgress
             openMainForm1Panel(new F2AdminLanding());
         }
 
-        
+        private void linkLabel25_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            openMainForm1Panel(new Form1SignupForm());
+        }
     }
 }

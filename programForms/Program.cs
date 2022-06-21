@@ -1,5 +1,3 @@
-using StudentManagementSystem.programForms.formsInProgress;
-
 namespace StudentManagementSystem.programForms
 {
     internal static class Program

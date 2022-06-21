@@ -43,12 +43,12 @@ namespace StudentManagementSystem
 
         private void signupAccLink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)//primary buttons but dont have yet functions
         {
-
+            openMainForm1Panel(new Form1SignupForm());
         }
 
         private void forgotPassLink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)//primary buttons but dont have yet functions
         {
-
+            
         }
         #region social media
         private void creatorFbLink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -74,9 +74,5 @@ namespace StudentManagementSystem
             openMainForm1Panel(new Form1InstructorForm());
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
     }
 }

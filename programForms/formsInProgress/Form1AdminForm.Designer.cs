@@ -282,6 +282,7 @@
             this.linkLabel25.TabIndex = 63;
             this.linkLabel25.TabStop = true;
             this.linkLabel25.Text = "SIGN UP";
+            this.linkLabel25.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel25_LinkClicked);
             // 
             // label49
             // 

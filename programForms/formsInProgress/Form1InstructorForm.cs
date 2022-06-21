@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using StudentManagementSystem.programSystemClasses.globalLinkClass;
 using StudentManagementSystem.programForms.formsLandingPage;
 
+
 namespace StudentManagementSystem.programForms.formsInProgress
 {
     public partial class Form1InstructorForm : Form
@@ -59,6 +60,11 @@ namespace StudentManagementSystem.programForms.formsInProgress
         private void f1InsbtnLogin_Click(object sender, EventArgs e)
         {
             openMainForm1Panel(new F2InstructorLanding());
+        }
+
+        private void signupAccLink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            openMainForm1Panel(new Form1SignupForm());
         }
     }
 }

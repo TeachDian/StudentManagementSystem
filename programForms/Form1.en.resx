@@ -4188,6 +4188,9 @@ All Rights Reserved.</value>
   <data name="btnLogin.Size" type="System.Drawing.Size, System.Drawing">
     <value>391, 47</value>
   </data>
+  <data name="btnLogin.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
   <data name="btnLogin.Text" xml:space="preserve">
     <value>Log In</value>
   </data>
@@ -4215,6 +4218,9 @@ All Rights Reserved.</value>
   <data name="password_txt.Size" type="System.Drawing.Size, System.Drawing">
     <value>391, 40</value>
   </data>
+  <data name="password_txt.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
   <data name="username_txt.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
@@ -4235,6 +4241,9 @@ All Rights Reserved.</value>
   </data>
   <data name="username_txt.Size" type="System.Drawing.Size, System.Drawing">
     <value>391, 40</value>
+  </data>
+  <data name="username_txt.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="label5.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
